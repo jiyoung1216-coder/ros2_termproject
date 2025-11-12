@@ -1,9 +1,0 @@
-{
-  "package_name": "ramen_interfaces",
-  "non_idl_tuples": [
-    "/home/you/ros2_term/ramen_interfaces:msg/RamenOrder.msg",
-    "/home/you/ros2_term/ramen_interfaces:msg/CookedRamen.msg",
-    "/home/you/ros2_term/ramen_interfaces:action/ServeRamen.action",
-    "/home/you/ros2_term/ramen_interfaces:action/RequestRemake.action"
-  ]
-}

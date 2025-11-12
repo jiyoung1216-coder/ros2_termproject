@@ -1,3 +1,0 @@
-[console_scripts]
-kitchen_node = ramen_kitchen.kitchen_node:main
-
