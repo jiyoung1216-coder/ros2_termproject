@@ -1,0 +1,4 @@
+source;share/ramen_interfaces/local_setup.bash
+source;share/ramen_interfaces/local_setup.dsv
+source;share/ramen_interfaces/local_setup.sh
+source;share/ramen_interfaces/local_setup.zsh

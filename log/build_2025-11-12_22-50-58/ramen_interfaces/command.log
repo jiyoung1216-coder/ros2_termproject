@@ -1,0 +1,6 @@
+Invoking command in '/home/you/ros2_term/build/ramen_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/you/ros2_term/ramen_interfaces -DCMAKE_INSTALL_PREFIX=/home/you/ros2_term/install/ramen_interfaces
+Invoked command in '/home/you/ros2_term/build/ramen_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/you/ros2_term/ramen_interfaces -DCMAKE_INSTALL_PREFIX=/home/you/ros2_term/install/ramen_interfaces
+Invoking command in '/home/you/ros2_term/build/ramen_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/you/ros2_term/build/ramen_interfaces -- -j4 -l4
+Invoked command in '/home/you/ros2_term/build/ramen_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/you/ros2_term/build/ramen_interfaces -- -j4 -l4
+Invoking command in '/home/you/ros2_term/build/ramen_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/you/ros2_term/build/ramen_interfaces
+Invoked command in '/home/you/ros2_term/build/ramen_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/you/ros2_term/build/ramen_interfaces

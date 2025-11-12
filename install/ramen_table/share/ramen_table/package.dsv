@@ -1,0 +1,6 @@
+source;share/ramen_table/hook/pythonpath.ps1
+source;share/ramen_table/hook/pythonpath.dsv
+source;share/ramen_table/hook/pythonpath.sh
+source;share/ramen_table/hook/ament_prefix_path.ps1
+source;share/ramen_table/hook/ament_prefix_path.dsv
+source;share/ramen_table/hook/ament_prefix_path.sh

@@ -1,0 +1,37 @@
+[1.788s] Invoking command in '/home/you/ros2_term/ramen_kitchen': AMENT_PREFIX_PATH=/home/you/ros2_term/install/ramen_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/you/ros2_term/install/ramen_interfaces LD_LIBRARY_PATH=/home/you/ros2_term/install/ramen_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/you/ros2_term/build/ramen_kitchen/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/you/ros2_term/install/ramen_kitchen/lib/python3.10/site-packages:/home/you/ros2_term/install/ramen_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/ramen_kitchen build --build-base /home/you/ros2_term/build/ramen_kitchen/build install --record /home/you/ros2_term/build/ramen_kitchen/install.log --single-version-externally-managed install_data
+[2.279s] running egg_info
+[2.279s] creating ../build/ramen_kitchen/ramen_kitchen.egg-info
+[2.279s] writing ../build/ramen_kitchen/ramen_kitchen.egg-info/PKG-INFO
+[2.279s] writing dependency_links to ../build/ramen_kitchen/ramen_kitchen.egg-info/dependency_links.txt
+[2.279s] writing entry points to ../build/ramen_kitchen/ramen_kitchen.egg-info/entry_points.txt
+[2.279s] writing requirements to ../build/ramen_kitchen/ramen_kitchen.egg-info/requires.txt
+[2.279s] writing top-level names to ../build/ramen_kitchen/ramen_kitchen.egg-info/top_level.txt
+[2.279s] writing manifest file '../build/ramen_kitchen/ramen_kitchen.egg-info/SOURCES.txt'
+[2.283s] reading manifest file '../build/ramen_kitchen/ramen_kitchen.egg-info/SOURCES.txt'
+[2.284s] writing manifest file '../build/ramen_kitchen/ramen_kitchen.egg-info/SOURCES.txt'
+[2.284s] running build
+[2.284s] running build_py
+[2.284s] creating /home/you/ros2_term/build/ramen_kitchen/build
+[2.285s] creating /home/you/ros2_term/build/ramen_kitchen/build/lib
+[2.285s] creating /home/you/ros2_term/build/ramen_kitchen/build/lib/ramen_kitchen
+[2.285s] copying ramen_kitchen/__init__.py -> /home/you/ros2_term/build/ramen_kitchen/build/lib/ramen_kitchen
+[2.285s] copying ramen_kitchen/kitchen_node.py -> /home/you/ros2_term/build/ramen_kitchen/build/lib/ramen_kitchen
+[2.294s] running install
+[2.295s] running install_lib
+[2.295s] creating /home/you/ros2_term/install/ramen_kitchen/lib/python3.10/site-packages/ramen_kitchen
+[2.295s] copying /home/you/ros2_term/build/ramen_kitchen/build/lib/ramen_kitchen/__init__.py -> /home/you/ros2_term/install/ramen_kitchen/lib/python3.10/site-packages/ramen_kitchen
+[2.295s] copying /home/you/ros2_term/build/ramen_kitchen/build/lib/ramen_kitchen/kitchen_node.py -> /home/you/ros2_term/install/ramen_kitchen/lib/python3.10/site-packages/ramen_kitchen
+[2.295s] byte-compiling /home/you/ros2_term/install/ramen_kitchen/lib/python3.10/site-packages/ramen_kitchen/__init__.py to __init__.cpython-310.pyc
+[2.295s] byte-compiling /home/you/ros2_term/install/ramen_kitchen/lib/python3.10/site-packages/ramen_kitchen/kitchen_node.py to kitchen_node.cpython-310.pyc
+[2.295s] running install_data
+[2.296s] creating /home/you/ros2_term/install/ramen_kitchen/share/ament_index
+[2.296s] creating /home/you/ros2_term/install/ramen_kitchen/share/ament_index/resource_index
+[2.296s] creating /home/you/ros2_term/install/ramen_kitchen/share/ament_index/resource_index/packages
+[2.296s] copying resource/ramen_kitchen -> /home/you/ros2_term/install/ramen_kitchen/share/ament_index/resource_index/packages
+[2.296s] copying package.xml -> /home/you/ros2_term/install/ramen_kitchen/share/ramen_kitchen
+[2.303s] running install_egg_info
+[2.303s] Copying ../build/ramen_kitchen/ramen_kitchen.egg-info to /home/you/ros2_term/install/ramen_kitchen/lib/python3.10/site-packages/ramen_kitchen-0.0.0-py3.10.egg-info
+[2.306s] running install_scripts
+[2.352s] Installing kitchen_node script to /home/you/ros2_term/install/ramen_kitchen/lib/ramen_kitchen
+[2.352s] writing list of installed files to '/home/you/ros2_term/build/ramen_kitchen/install.log'
+[2.403s] Invoked command in '/home/you/ros2_term/ramen_kitchen' returned '0': AMENT_PREFIX_PATH=/home/you/ros2_term/install/ramen_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/you/ros2_term/install/ramen_interfaces LD_LIBRARY_PATH=/home/you/ros2_term/install/ramen_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/you/ros2_term/build/ramen_kitchen/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/you/ros2_term/install/ramen_kitchen/lib/python3.10/site-packages:/home/you/ros2_term/install/ramen_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/ramen_kitchen build --build-base /home/you/ros2_term/build/ramen_kitchen/build install --record /home/you/ros2_term/build/ramen_kitchen/install.log --single-version-externally-managed install_data

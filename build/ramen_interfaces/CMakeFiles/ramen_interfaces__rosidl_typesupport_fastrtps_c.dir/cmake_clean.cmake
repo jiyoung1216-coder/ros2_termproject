@@ -1,0 +1,25 @@
+file(REMOVE_RECURSE
+  "CMakeFiles/ramen_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ramen_interfaces/action/detail/request_remake__type_support_c.cpp.o"
+  "CMakeFiles/ramen_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ramen_interfaces/action/detail/request_remake__type_support_c.cpp.o.d"
+  "CMakeFiles/ramen_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ramen_interfaces/action/detail/serve_ramen__type_support_c.cpp.o"
+  "CMakeFiles/ramen_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ramen_interfaces/action/detail/serve_ramen__type_support_c.cpp.o.d"
+  "CMakeFiles/ramen_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ramen_interfaces/msg/detail/cooked_ramen__type_support_c.cpp.o"
+  "CMakeFiles/ramen_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ramen_interfaces/msg/detail/cooked_ramen__type_support_c.cpp.o.d"
+  "CMakeFiles/ramen_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ramen_interfaces/msg/detail/ramen_order__type_support_c.cpp.o"
+  "CMakeFiles/ramen_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ramen_interfaces/msg/detail/ramen_order__type_support_c.cpp.o.d"
+  "libramen_interfaces__rosidl_typesupport_fastrtps_c.pdb"
+  "libramen_interfaces__rosidl_typesupport_fastrtps_c.so"
+  "rosidl_typesupport_fastrtps_c/ramen_interfaces/action/detail/request_remake__rosidl_typesupport_fastrtps_c.h"
+  "rosidl_typesupport_fastrtps_c/ramen_interfaces/action/detail/request_remake__type_support_c.cpp"
+  "rosidl_typesupport_fastrtps_c/ramen_interfaces/action/detail/serve_ramen__rosidl_typesupport_fastrtps_c.h"
+  "rosidl_typesupport_fastrtps_c/ramen_interfaces/action/detail/serve_ramen__type_support_c.cpp"
+  "rosidl_typesupport_fastrtps_c/ramen_interfaces/msg/detail/cooked_ramen__rosidl_typesupport_fastrtps_c.h"
+  "rosidl_typesupport_fastrtps_c/ramen_interfaces/msg/detail/cooked_ramen__type_support_c.cpp"
+  "rosidl_typesupport_fastrtps_c/ramen_interfaces/msg/detail/ramen_order__rosidl_typesupport_fastrtps_c.h"
+  "rosidl_typesupport_fastrtps_c/ramen_interfaces/msg/detail/ramen_order__type_support_c.cpp"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang CXX)
+  include(CMakeFiles/ramen_interfaces__rosidl_typesupport_fastrtps_c.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

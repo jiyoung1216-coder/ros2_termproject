@@ -1,0 +1,28 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from ramen_interfaces/msg/RamenOrder.msg
+// generated code does not contain a copyright notice
+
+
+module ramen_interfaces {
+  module msg {
+    @verbatim (language="comment", text=
+      "msg/RamenOrder.msg")
+    struct RamenOrder {
+      @verbatim (language="comment", text=
+        "주문 테이블 번호 (1~9)")
+      uint8 table_number;
+
+      @verbatim (language="comment", text=
+        "라면 종류 (신라면, 진라면 등)")
+      string ramen_type;
+
+      @verbatim (language="comment", text=
+        "토핑 목록 (치즈, 떡, 만두 등)")
+      sequence<string> toppings;
+
+      @verbatim (language="comment", text=
+        "사이드 목록 (콜라, 김밥 등)")
+      sequence<string> sides;
+    };
+  };
+};

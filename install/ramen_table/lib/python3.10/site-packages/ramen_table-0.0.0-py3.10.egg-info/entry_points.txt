@@ -1,0 +1,4 @@
+[console_scripts]
+customer_node = ramen_table.customer_node:main
+order_node = ramen_table.order_node:main
+

@@ -1,0 +1,600 @@
+[0.000000] (-) TimerEvent: {}
+[0.000650] (ramen_interfaces) JobQueued: {'identifier': 'ramen_interfaces', 'dependencies': OrderedDict()}
+[0.000764] (ramen_kitchen) JobQueued: {'identifier': 'ramen_kitchen', 'dependencies': OrderedDict([('ramen_interfaces', '/home/you/ros2_term/install/ramen_interfaces')])}
+[0.000786] (ramen_serving) JobQueued: {'identifier': 'ramen_serving', 'dependencies': OrderedDict([('ramen_interfaces', '/home/you/ros2_term/install/ramen_interfaces')])}
+[0.000804] (ramen_table) JobQueued: {'identifier': 'ramen_table', 'dependencies': OrderedDict([('ramen_interfaces', '/home/you/ros2_term/install/ramen_interfaces')])}
+[0.000822] (ramen_interfaces) JobStarted: {'identifier': 'ramen_interfaces'}
+[0.010992] (ramen_interfaces) JobProgress: {'identifier': 'ramen_interfaces', 'progress': 'cmake'}
+[0.012194] (ramen_interfaces) Command: {'cmd': ['/usr/bin/cmake', '/home/you/ros2_term/ramen_interfaces', '-DCMAKE_INSTALL_PREFIX=/home/you/ros2_term/install/ramen_interfaces'], 'cwd': '/home/you/ros2_term/build/ramen_interfaces', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en'), ('USER', 'you'), ('LC_TIME', 'en_US.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/you'), ('CHROME_DESKTOP', 'code.desktop'), ('CONDA_SHLVL', '0'), ('TERM_PROGRAM_VERSION', '1.103.2'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'en_US.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '946'), ('SYSTEMD_EXEC_PID', '1132'), ('IM_CONFIG_CHECK_ENV', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_CE_M', ''), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '4751'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'you'), ('JOURNAL_STREAM', '8:9117'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'you'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('_CE_CONDA', ''), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/you/.local/bin:/home/you/.local/bin:/opt/ros/humble/bin:/home/you/miniconda3/condabin:/home/you/.local/bin:/home/you/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/you/.config/Code/User/globalStorage/github.copilot-chat/debugCommand'), ('SESSION_MANAGER', 'local/you-550XCJ-550XCR:@/tmp/.ICE-unix/1101,unix/you-550XCJ-550XCR:/tmp/.ICE-unix/1101'), ('INVOCATION_ID', '441a37023b664eecb2adfa1576f4b7d3'), ('PAPERSIZE', 'letter'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'en_US.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('LC_TELEPHONE', 'en_US.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.Y7N8F3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-8404074945.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('CONDA_PYTHON_EXE', '/home/you/miniconda3/bin/python'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('LC_NAME', 'en_US.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('ROS_MASTER_URI', 'http://localhost:11311'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'en_US.UTF-8'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'en_US.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/you/ros2_term/build/ramen_interfaces'), ('TURTLEBOT3_MODEL', 'burger'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CONDA_EXE', '/home/you/miniconda3/bin/conda'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('ROS_HOSTNAME', 'localhost'), ('LC_NUMERIC', 'en_US.UTF-8'), ('LC_PAPER', 'en_US.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.095217] (ramen_interfaces) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.099761] (-) TimerEvent: {}
+[0.175254] (ramen_interfaces) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.185026] (ramen_interfaces) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.199861] (-) TimerEvent: {}
+[0.249047] (ramen_interfaces) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.257789] (ramen_interfaces) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.258208] (ramen_interfaces) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.258804] (ramen_interfaces) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.262074] (ramen_interfaces) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.299958] (-) TimerEvent: {}
+[0.336552] (ramen_interfaces) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.346450] (ramen_interfaces) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.346670] (ramen_interfaces) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.347080] (ramen_interfaces) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.352321] (ramen_interfaces) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.400080] (-) TimerEvent: {}
+[0.498676] (ramen_interfaces) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[0.500149] (-) TimerEvent: {}
+[0.598770] (ramen_interfaces) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[0.600223] (-) TimerEvent: {}
+[0.602816] (ramen_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.612801] (ramen_interfaces) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.665678] (ramen_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.700363] (-) TimerEvent: {}
+[0.702741] (ramen_interfaces) StdoutLine: {'line': b'-- Found action_msgs: 1.2.2 (/opt/ros/humble/share/action_msgs/cmake)\n'}
+[0.800487] (-) TimerEvent: {}
+[0.900782] (-) TimerEvent: {}
+[1.001076] (-) TimerEvent: {}
+[1.019516] (ramen_interfaces) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[1.101178] (-) TimerEvent: {}
+[1.199006] (ramen_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.201257] (-) TimerEvent: {}
+[1.301518] (-) TimerEvent: {}
+[1.401814] (-) TimerEvent: {}
+[1.436651] (ramen_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.457789] (ramen_interfaces) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") \n'}
+[1.460091] (ramen_interfaces) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[1.484907] (ramen_interfaces) StdoutLine: {'line': b'-- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") \n'}
+[1.485128] (ramen_interfaces) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[1.485190] (ramen_interfaces) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[1.485243] (ramen_interfaces) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so\n'}
+[1.501921] (-) TimerEvent: {}
+[1.504018] (ramen_interfaces) StdoutLine: {'line': b'-- Found PythonExtra: .so  \n'}
+[1.547134] (ramen_interfaces) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[1.574454] (ramen_interfaces) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[1.576528] (ramen_interfaces) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[1.577887] (ramen_interfaces) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[1.580714] (ramen_interfaces) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.602037] (-) TimerEvent: {}
+[1.616959] (ramen_interfaces) StdoutLine: {'line': b'-- Generating done\n'}
+[1.630969] (ramen_interfaces) StdoutLine: {'line': b'-- Build files have been written to: /home/you/ros2_term/build/ramen_interfaces\n'}
+[1.641740] (ramen_interfaces) CommandEnded: {'returncode': 0}
+[1.642342] (ramen_interfaces) JobProgress: {'identifier': 'ramen_interfaces', 'progress': 'build'}
+[1.643056] (ramen_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/you/ros2_term/build/ramen_interfaces', '--', '-j4', '-l4'], 'cwd': '/home/you/ros2_term/build/ramen_interfaces', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en'), ('USER', 'you'), ('LC_TIME', 'en_US.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/you'), ('CHROME_DESKTOP', 'code.desktop'), ('CONDA_SHLVL', '0'), ('TERM_PROGRAM_VERSION', '1.103.2'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'en_US.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '946'), ('SYSTEMD_EXEC_PID', '1132'), ('IM_CONFIG_CHECK_ENV', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_CE_M', ''), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '4751'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'you'), ('JOURNAL_STREAM', '8:9117'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'you'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('_CE_CONDA', ''), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/you/.local/bin:/home/you/.local/bin:/opt/ros/humble/bin:/home/you/miniconda3/condabin:/home/you/.local/bin:/home/you/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/you/.config/Code/User/globalStorage/github.copilot-chat/debugCommand'), ('SESSION_MANAGER', 'local/you-550XCJ-550XCR:@/tmp/.ICE-unix/1101,unix/you-550XCJ-550XCR:/tmp/.ICE-unix/1101'), ('INVOCATION_ID', '441a37023b664eecb2adfa1576f4b7d3'), ('PAPERSIZE', 'letter'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'en_US.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('LC_TELEPHONE', 'en_US.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.Y7N8F3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-8404074945.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('CONDA_PYTHON_EXE', '/home/you/miniconda3/bin/python'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('LC_NAME', 'en_US.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('ROS_MASTER_URI', 'http://localhost:11311'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'en_US.UTF-8'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'en_US.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/you/ros2_term/build/ramen_interfaces'), ('TURTLEBOT3_MODEL', 'burger'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CONDA_EXE', '/home/you/miniconda3/bin/conda'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('ROS_HOSTNAME', 'localhost'), ('LC_NUMERIC', 'en_US.UTF-8'), ('LC_PAPER', 'en_US.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[1.681040] (ramen_interfaces) StdoutLine: {'line': b'[  1%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[1.692276] (ramen_interfaces) StdoutLine: {'line': b'[  3%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[1.694319] (ramen_interfaces) StdoutLine: {'line': b'[  3%] Built target ament_cmake_python_copy_ramen_interfaces\n'}
+[1.702131] (-) TimerEvent: {}
+[1.802485] (-) TimerEvent: {}
+[1.903216] (-) TimerEvent: {}
+[2.009760] (-) TimerEvent: {}
+[2.111713] (-) TimerEvent: {}
+[2.212057] (-) TimerEvent: {}
+[2.284655] (ramen_interfaces) StdoutLine: {'line': b'running egg_info\n'}
+[2.285425] (ramen_interfaces) StdoutLine: {'line': b'creating ramen_interfaces.egg-info\n'}
+[2.285749] (ramen_interfaces) StdoutLine: {'line': b'writing ramen_interfaces.egg-info/PKG-INFO\n'}
+[2.285974] (ramen_interfaces) StdoutLine: {'line': b'writing dependency_links to ramen_interfaces.egg-info/dependency_links.txt\n'}
+[2.286220] (ramen_interfaces) StdoutLine: {'line': b'writing top-level names to ramen_interfaces.egg-info/top_level.txt\n'}
+[2.286527] (ramen_interfaces) StdoutLine: {'line': b"writing manifest file 'ramen_interfaces.egg-info/SOURCES.txt'\n"}
+[2.289477] (ramen_interfaces) StdoutLine: {'line': b"reading manifest file 'ramen_interfaces.egg-info/SOURCES.txt'\n"}
+[2.290077] (ramen_interfaces) StdoutLine: {'line': b"writing manifest file 'ramen_interfaces.egg-info/SOURCES.txt'\n"}
+[2.312153] (-) TimerEvent: {}
+[2.322464] (ramen_interfaces) StdoutLine: {'line': b'[  3%] Built target ament_cmake_python_build_ramen_interfaces_egg\n'}
+[2.412262] (-) TimerEvent: {}
+[2.512548] (-) TimerEvent: {}
+[2.612834] (-) TimerEvent: {}
+[2.713084] (-) TimerEvent: {}
+[2.813579] (-) TimerEvent: {}
+[2.914085] (-) TimerEvent: {}
+[3.015124] (-) TimerEvent: {}
+[3.035502] (ramen_interfaces) StdoutLine: {'line': b'[  3%] Built target ramen_interfaces__cpp\n'}
+[3.054369] (ramen_interfaces) StdoutLine: {'line': b'[  5%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[3.059214] (ramen_interfaces) StdoutLine: {'line': b'[  7%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[3.059906] (ramen_interfaces) StdoutLine: {'line': b'[  9%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[3.115215] (-) TimerEvent: {}
+[3.183384] (ramen_interfaces) StdoutLine: {'line': b'[ 10%] \x1b[32mBuilding C object CMakeFiles/ramen_interfaces__rosidl_generator_c.dir/rosidl_generator_c/ramen_interfaces/msg/detail/ramen_order__functions.c.o\x1b[0m\n'}
+[3.215317] (-) TimerEvent: {}
+[3.281760] (ramen_interfaces) StdoutLine: {'line': b'[ 12%] \x1b[32mBuilding C object CMakeFiles/ramen_interfaces__rosidl_generator_c.dir/rosidl_generator_c/ramen_interfaces/msg/detail/cooked_ramen__functions.c.o\x1b[0m\n'}
+[3.317089] (-) TimerEvent: {}
+[3.362123] (ramen_interfaces) StdoutLine: {'line': b'[ 14%] \x1b[32mBuilding C object CMakeFiles/ramen_interfaces__rosidl_generator_c.dir/rosidl_generator_c/ramen_interfaces/action/detail/serve_ramen__functions.c.o\x1b[0m\n'}
+[3.417196] (-) TimerEvent: {}
+[3.517904] (-) TimerEvent: {}
+[3.595918] (ramen_interfaces) StdoutLine: {'line': b'[ 16%] \x1b[32mBuilding C object CMakeFiles/ramen_interfaces__rosidl_generator_c.dir/rosidl_generator_c/ramen_interfaces/action/detail/request_remake__functions.c.o\x1b[0m\n'}
+[3.618005] (-) TimerEvent: {}
+[3.718778] (-) TimerEvent: {}
+[3.818238] (ramen_interfaces) StdoutLine: {'line': b'[ 18%] \x1b[32m\x1b[1mLinking C shared library libramen_interfaces__rosidl_generator_c.so\x1b[0m\n'}
+[3.818843] (-) TimerEvent: {}
+[3.891436] (ramen_interfaces) StdoutLine: {'line': b'[ 18%] Built target ramen_interfaces__rosidl_generator_c\n'}
+[3.905519] (ramen_interfaces) StdoutLine: {'line': b'[ 20%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[3.918955] (-) TimerEvent: {}
+[4.019282] (-) TimerEvent: {}
+[4.120218] (-) TimerEvent: {}
+[4.220524] (-) TimerEvent: {}
+[4.235392] (ramen_interfaces) StdoutLine: {'line': b'[ 21%] \x1b[32mBuilding CXX object CMakeFiles/ramen_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ramen_interfaces/msg/ramen_order__type_support.cpp.o\x1b[0m\n'}
+[4.320632] (-) TimerEvent: {}
+[4.420947] (-) TimerEvent: {}
+[4.528106] (ramen_interfaces) StdoutLine: {'line': b'[ 23%] \x1b[32mBuilding CXX object CMakeFiles/ramen_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ramen_interfaces/msg/detail/ramen_order__type_support.cpp.o\x1b[0m\n'}
+[4.528339] (-) TimerEvent: {}
+[4.628580] (-) TimerEvent: {}
+[4.728900] (-) TimerEvent: {}
+[4.820918] (ramen_interfaces) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/ramen_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ramen_interfaces/msg/detail/dds_fastrtps/ramen_order__type_support.cpp.o\x1b[0m\n'}
+[4.829001] (-) TimerEvent: {}
+[4.849092] (ramen_interfaces) StdoutLine: {'line': b'[ 27%] \x1b[32mBuilding CXX object CMakeFiles/ramen_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ramen_interfaces/msg/cooked_ramen__type_support.cpp.o\x1b[0m\n'}
+[4.929089] (-) TimerEvent: {}
+[5.029392] (-) TimerEvent: {}
+[5.129705] (-) TimerEvent: {}
+[5.230015] (-) TimerEvent: {}
+[5.273897] (ramen_interfaces) StdoutLine: {'line': b'[ 29%] \x1b[32mBuilding CXX object CMakeFiles/ramen_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ramen_interfaces/action/serve_ramen__type_support.cpp.o\x1b[0m\n'}
+[5.311470] (ramen_interfaces) StdoutLine: {'line': b'[ 30%] \x1b[32mBuilding CXX object CMakeFiles/ramen_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ramen_interfaces/msg/detail/cooked_ramen__type_support.cpp.o\x1b[0m\n'}
+[5.330096] (-) TimerEvent: {}
+[5.430816] (-) TimerEvent: {}
+[5.485050] (ramen_interfaces) StdoutLine: {'line': b'[ 32%] \x1b[32mBuilding CXX object CMakeFiles/ramen_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ramen_interfaces/msg/detail/ramen_order__type_support_c.cpp.o\x1b[0m\n'}
+[5.530918] (-) TimerEvent: {}
+[5.595042] (ramen_interfaces) StdoutLine: {'line': b'[ 34%] \x1b[32mBuilding CXX object CMakeFiles/ramen_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ramen_interfaces/msg/detail/dds_fastrtps/cooked_ramen__type_support.cpp.o\x1b[0m\n'}
+[5.631813] (-) TimerEvent: {}
+[5.732098] (-) TimerEvent: {}
+[5.832436] (-) TimerEvent: {}
+[5.934284] (-) TimerEvent: {}
+[5.972145] (ramen_interfaces) StdoutLine: {'line': b'[ 36%] \x1b[32mBuilding CXX object CMakeFiles/ramen_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ramen_interfaces/action/detail/serve_ramen__type_support.cpp.o\x1b[0m\n'}
+[6.034405] (-) TimerEvent: {}
+[6.052478] (ramen_interfaces) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding CXX object CMakeFiles/ramen_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ramen_interfaces/msg/detail/cooked_ramen__type_support_c.cpp.o\x1b[0m\n'}
+[6.080518] (ramen_interfaces) StdoutLine: {'line': b'[ 40%] \x1b[32mBuilding CXX object CMakeFiles/ramen_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ramen_interfaces/action/request_remake__type_support.cpp.o\x1b[0m\n'}
+[6.134513] (-) TimerEvent: {}
+[6.234842] (-) TimerEvent: {}
+[6.279844] (ramen_interfaces) StdoutLine: {'line': b'[ 41%] \x1b[32mBuilding CXX object CMakeFiles/ramen_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ramen_interfaces/action/detail/dds_fastrtps/serve_ramen__type_support.cpp.o\x1b[0m\n'}
+[6.334949] (-) TimerEvent: {}
+[6.436251] (-) TimerEvent: {}
+[6.537047] (-) TimerEvent: {}
+[6.586463] (ramen_interfaces) StdoutLine: {'line': b'[ 43%] \x1b[32mBuilding CXX object CMakeFiles/ramen_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ramen_interfaces/action/detail/serve_ramen__type_support_c.cpp.o\x1b[0m\n'}
+[6.638095] (-) TimerEvent: {}
+[6.738805] (-) TimerEvent: {}
+[6.839553] (-) TimerEvent: {}
+[6.878124] (ramen_interfaces) StdoutLine: {'line': b'[ 45%] \x1b[32m\x1b[1mLinking CXX shared library libramen_interfaces__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[6.939655] (-) TimerEvent: {}
+[6.943472] (ramen_interfaces) StdoutLine: {'line': b'[ 45%] Built target ramen_interfaces__rosidl_typesupport_cpp\n'}
+[6.957851] (ramen_interfaces) StdoutLine: {'line': b'[ 47%] \x1b[32mBuilding CXX object CMakeFiles/ramen_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ramen_interfaces/action/detail/request_remake__type_support_c.cpp.o\x1b[0m\n'}
+[6.972647] (ramen_interfaces) StdoutLine: {'line': b'[ 49%] \x1b[32mBuilding CXX object CMakeFiles/ramen_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ramen_interfaces/action/detail/request_remake__type_support.cpp.o\x1b[0m\n'}
+[7.039781] (-) TimerEvent: {}
+[7.141044] (-) TimerEvent: {}
+[7.214590] (ramen_interfaces) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/ramen_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ramen_interfaces/action/detail/dds_fastrtps/request_remake__type_support.cpp.o\x1b[0m\n'}
+[7.241109] (-) TimerEvent: {}
+[7.308388] (ramen_interfaces) StdoutLine: {'line': b'[ 52%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[7.343480] (-) TimerEvent: {}
+[7.445101] (-) TimerEvent: {}
+[7.545440] (-) TimerEvent: {}
+[7.644458] (ramen_interfaces) StdoutLine: {'line': b'[ 54%] \x1b[32m\x1b[1mLinking CXX shared library libramen_interfaces__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[7.645533] (-) TimerEvent: {}
+[7.747580] (-) TimerEvent: {}
+[7.838230] (ramen_interfaces) StdoutLine: {'line': b'[ 54%] Built target ramen_interfaces__rosidl_typesupport_fastrtps_c\n'}
+[7.850097] (-) TimerEvent: {}
+[7.853726] (ramen_interfaces) StdoutLine: {'line': b'[ 56%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[7.950210] (-) TimerEvent: {}
+[8.001106] (ramen_interfaces) StdoutLine: {'line': b'[ 58%] \x1b[32m\x1b[1mLinking CXX shared library libramen_interfaces__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[8.050356] (-) TimerEvent: {}
+[8.145793] (ramen_interfaces) StdoutLine: {'line': b'[ 58%] Built target ramen_interfaces__rosidl_typesupport_introspection_cpp\n'}
+[8.150447] (-) TimerEvent: {}
+[8.165440] (ramen_interfaces) StdoutLine: {'line': b'[ 60%] \x1b[32m\x1b[1mLinking CXX shared library libramen_interfaces__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[8.250555] (-) TimerEvent: {}
+[8.299187] (ramen_interfaces) StdoutLine: {'line': b'[ 60%] Built target ramen_interfaces__rosidl_typesupport_fastrtps_cpp\n'}
+[8.350651] (-) TimerEvent: {}
+[8.450914] (-) TimerEvent: {}
+[8.544237] (ramen_interfaces) StdoutLine: {'line': b'[ 65%] \x1b[32mBuilding C object CMakeFiles/ramen_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ramen_interfaces/msg/detail/cooked_ramen__type_support.c.o\x1b[0m\n'}
+[8.544555] (ramen_interfaces) StdoutLine: {'line': b'[ 65%] \x1b[32mBuilding C object CMakeFiles/ramen_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ramen_interfaces/msg/detail/ramen_order__type_support.c.o\x1b[0m\n'}
+[8.544676] (ramen_interfaces) StdoutLine: {'line': b'[ 65%] \x1b[32mBuilding C object CMakeFiles/ramen_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ramen_interfaces/action/detail/serve_ramen__type_support.c.o\x1b[0m\n'}
+[8.552236] (-) TimerEvent: {}
+[8.592178] (ramen_interfaces) StdoutLine: {'line': b'[ 67%] \x1b[32mBuilding C object CMakeFiles/ramen_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ramen_interfaces/action/detail/request_remake__type_support.c.o\x1b[0m\n'}
+[8.637766] (ramen_interfaces) StdoutLine: {'line': b'[ 69%] \x1b[32m\x1b[1mLinking C shared library libramen_interfaces__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[8.652360] (-) TimerEvent: {}
+[8.670122] (ramen_interfaces) StdoutLine: {'line': b'[ 69%] Built target ramen_interfaces__rosidl_typesupport_introspection_c\n'}
+[8.714374] (ramen_interfaces) StdoutLine: {'line': b'[ 70%] \x1b[32mBuilding CXX object CMakeFiles/ramen_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/ramen_interfaces/msg/cooked_ramen__type_support.cpp.o\x1b[0m\n'}
+[8.715000] (ramen_interfaces) StdoutLine: {'line': b'[ 74%] \x1b[32mBuilding CXX object CMakeFiles/ramen_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/ramen_interfaces/action/serve_ramen__type_support.cpp.o\x1b[0m\n'}
+[8.715335] (ramen_interfaces) StdoutLine: {'line': b'[ 74%] \x1b[32mBuilding CXX object CMakeFiles/ramen_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/ramen_interfaces/action/request_remake__type_support.cpp.o\x1b[0m\n'}
+[8.715451] (ramen_interfaces) StdoutLine: {'line': b'[ 76%] \x1b[32mBuilding CXX object CMakeFiles/ramen_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/ramen_interfaces/msg/ramen_order__type_support.cpp.o\x1b[0m\n'}
+[8.752461] (-) TimerEvent: {}
+[8.770779] (ramen_interfaces) StdoutLine: {'line': b'[ 78%] \x1b[32m\x1b[1mLinking CXX shared library libramen_interfaces__rosidl_typesupport_c.so\x1b[0m\n'}
+[8.809380] (ramen_interfaces) StdoutLine: {'line': b'[ 78%] Built target ramen_interfaces__rosidl_typesupport_c\n'}
+[8.825907] (ramen_interfaces) StdoutLine: {'line': b'[ 78%] Built target ramen_interfaces\n'}
+[8.843559] (ramen_interfaces) StdoutLine: {'line': b'[ 80%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[8.852547] (-) TimerEvent: {}
+[8.952846] (-) TimerEvent: {}
+[9.053117] (-) TimerEvent: {}
+[9.153363] (-) TimerEvent: {}
+[9.253804] (-) TimerEvent: {}
+[9.354119] (-) TimerEvent: {}
+[9.454352] (-) TimerEvent: {}
+[9.554586] (-) TimerEvent: {}
+[9.654869] (-) TimerEvent: {}
+[9.755141] (-) TimerEvent: {}
+[9.855408] (-) TimerEvent: {}
+[9.955640] (-) TimerEvent: {}
+[10.055919] (-) TimerEvent: {}
+[10.156214] (-) TimerEvent: {}
+[10.256462] (-) TimerEvent: {}
+[10.356728] (-) TimerEvent: {}
+[10.457021] (-) TimerEvent: {}
+[10.493546] (ramen_interfaces) StdoutLine: {'line': b'[ 80%] Built target ramen_interfaces__py\n'}
+[10.513855] (ramen_interfaces) StdoutLine: {'line': b'[ 81%] \x1b[32mBuilding C object CMakeFiles/ramen_interfaces__rosidl_generator_py.dir/rosidl_generator_py/ramen_interfaces/action/_serve_ramen_s.c.o\x1b[0m\n'}
+[10.514070] (ramen_interfaces) StdoutLine: {'line': b'[ 85%] \x1b[32mBuilding C object CMakeFiles/ramen_interfaces__rosidl_generator_py.dir/rosidl_generator_py/ramen_interfaces/msg/_ramen_order_s.c.o\x1b[0m\n'}
+[10.514181] (ramen_interfaces) StdoutLine: {'line': b'[ 85%] \x1b[32mBuilding C object CMakeFiles/ramen_interfaces__rosidl_generator_py.dir/rosidl_generator_py/ramen_interfaces/msg/_cooked_ramen_s.c.o\x1b[0m\n'}
+[10.516895] (ramen_interfaces) StdoutLine: {'line': b'[ 87%] \x1b[32mBuilding C object CMakeFiles/ramen_interfaces__rosidl_generator_py.dir/rosidl_generator_py/ramen_interfaces/action/_request_remake_s.c.o\x1b[0m\n'}
+[10.560266] (-) TimerEvent: {}
+[10.660612] (-) TimerEvent: {}
+[10.760408] (ramen_interfaces) StdoutLine: {'line': b'[ 89%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/ramen_interfaces/libramen_interfaces__rosidl_generator_py.so\x1b[0m\n'}
+[10.760633] (-) TimerEvent: {}
+[10.800754] (ramen_interfaces) StdoutLine: {'line': b'[ 89%] Built target ramen_interfaces__rosidl_generator_py\n'}
+[10.820959] (ramen_interfaces) StdoutLine: {'line': b'[ 90%] \x1b[32mBuilding C object CMakeFiles/ramen_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/ramen_interfaces/_ramen_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[10.821298] (ramen_interfaces) StdoutLine: {'line': b'[ 92%] \x1b[32mBuilding C object CMakeFiles/ramen_interfaces__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/ramen_interfaces/_ramen_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[10.824349] (ramen_interfaces) StdoutLine: {'line': b'[ 94%] \x1b[32mBuilding C object CMakeFiles/ramen_interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/ramen_interfaces/_ramen_interfaces_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[10.860762] (-) TimerEvent: {}
+[10.961117] (-) TimerEvent: {}
+[10.984670] (ramen_interfaces) StdoutLine: {'line': b'[ 96%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/ramen_interfaces/ramen_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[11.022854] (ramen_interfaces) StdoutLine: {'line': b'[ 96%] Built target ramen_interfaces__rosidl_typesupport_fastrtps_c__pyext\n'}
+[11.051362] (ramen_interfaces) StdoutLine: {'line': b'[ 98%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/ramen_interfaces/ramen_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[11.051832] (ramen_interfaces) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/ramen_interfaces/ramen_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[11.061231] (-) TimerEvent: {}
+[11.093917] (ramen_interfaces) StdoutLine: {'line': b'[100%] Built target ramen_interfaces__rosidl_typesupport_introspection_c__pyext\n'}
+[11.094465] (ramen_interfaces) StdoutLine: {'line': b'[100%] Built target ramen_interfaces__rosidl_typesupport_c__pyext\n'}
+[11.106205] (ramen_interfaces) CommandEnded: {'returncode': 0}
+[11.106804] (ramen_interfaces) JobProgress: {'identifier': 'ramen_interfaces', 'progress': 'install'}
+[11.113891] (ramen_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/you/ros2_term/build/ramen_interfaces'], 'cwd': '/home/you/ros2_term/build/ramen_interfaces', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en'), ('USER', 'you'), ('LC_TIME', 'en_US.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/you'), ('CHROME_DESKTOP', 'code.desktop'), ('CONDA_SHLVL', '0'), ('TERM_PROGRAM_VERSION', '1.103.2'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'en_US.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '946'), ('SYSTEMD_EXEC_PID', '1132'), ('IM_CONFIG_CHECK_ENV', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_CE_M', ''), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '4751'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'you'), ('JOURNAL_STREAM', '8:9117'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'you'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('_CE_CONDA', ''), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/you/.local/bin:/home/you/.local/bin:/opt/ros/humble/bin:/home/you/miniconda3/condabin:/home/you/.local/bin:/home/you/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/you/.config/Code/User/globalStorage/github.copilot-chat/debugCommand'), ('SESSION_MANAGER', 'local/you-550XCJ-550XCR:@/tmp/.ICE-unix/1101,unix/you-550XCJ-550XCR:/tmp/.ICE-unix/1101'), ('INVOCATION_ID', '441a37023b664eecb2adfa1576f4b7d3'), ('PAPERSIZE', 'letter'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'en_US.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('LC_TELEPHONE', 'en_US.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.Y7N8F3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-8404074945.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('CONDA_PYTHON_EXE', '/home/you/miniconda3/bin/python'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('LC_NAME', 'en_US.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('ROS_MASTER_URI', 'http://localhost:11311'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'en_US.UTF-8'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'en_US.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/you/ros2_term/build/ramen_interfaces'), ('TURTLEBOT3_MODEL', 'burger'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CONDA_EXE', '/home/you/miniconda3/bin/conda'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('ROS_HOSTNAME', 'localhost'), ('LC_NUMERIC', 'en_US.UTF-8'), ('LC_PAPER', 'en_US.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[11.121384] (ramen_interfaces) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[11.121627] (ramen_interfaces) StdoutLine: {'line': b'-- Installing: /home/you/ros2_term/install/ramen_interfaces/share/ament_index/resource_index/rosidl_interfaces/ramen_interfaces\n'}
+[11.121766] (ramen_interfaces) StdoutLine: {'line': b'-- Installing: /home/you/ros2_term/install/ramen_interfaces/include/ramen_interfaces/ramen_interfaces\n'}
+[11.121905] (ramen_interfaces) StdoutLine: {'line': b'-- Installing: /home/you/ros2_term/install/ramen_interfaces/include/ramen_interfaces/ramen_interfaces/action\n'}
+[11.122027] (ramen_interfaces) StdoutLine: {'line': b'-- Installing: /home/you/ros2_term/install/ramen_interfaces/include/ramen_interfaces/ramen_interfaces/action/serve_ramen.h\n'}
+[11.122165] (ramen_interfaces) StdoutLine: {'line': b'-- Installing: /home/you/ros2_term/install/ramen_interfaces/include/ramen_interfaces/ramen_interfaces/action/request_remake.h\n'}
+[11.122293] (ramen_interfaces) StdoutLine: {'line': b'-- Installing: /home/you/ros2_term/install/ramen_interfaces/include/ramen_interfaces/ramen_interfaces/action/detail\n'}
+[11.122390] (ramen_interfaces) StdoutLine: {'line': b'-- Installing: /home/you/ros2_term/install/ramen_interfaces/include/ramen_interfaces/ramen_interfaces/action/detail/serve_ramen__functions.h\n'}
+[11.122510] (ramen_interfaces) StdoutLine: {'line': b'-- Installing: /home/you/ros2_term/install/ramen_interfaces/include/ramen_interfaces/ramen_interfaces/action/detail/serve_ramen__functions.c\n'}
+[11.122642] (ramen_interfaces) StdoutLine: {'line': b'-- Installing: /home/you/ros2_term/install/ramen_interfaces/include/ramen_interfaces/ramen_interfaces/action/detail/request_remake__functions.c\n'}
+[11.122794] (ramen_interfaces) StdoutLine: {'line': b'-- Installing: /home/you/ros2_term/install/ramen_interfaces/include/ramen_interfaces/ramen_interfaces/action/detail/serve_ramen__struct.h\n'}
+[11.122908] (ramen_interfaces) StdoutLine: {'line': b'-- Installing: /home/you/ros2_term/install/ramen_interfaces/include/ramen_interfaces/ramen_interfaces/action/detail/request_remake__functions.h\n'}
+[11.123171] (ramen_interfaces) StdoutLine: {'line': b'-- Installing: /home/you/ros2_term/install/ramen_interfaces/include/ramen_interfaces/ramen_interfaces/action/detail/request_remake__struct.h\n'}
+[11.123297] (ramen_interfaces) StdoutLine: {'line': b'-- Installing: /home/you/ros2_term/install/ramen_interfaces/include/ramen_interfaces/ramen_interfaces/action/detail/request_remake__type_support.h\n'}
+[11.123408] (ramen_interfaces) StdoutLine: {'line': b'-- Installing: /home/you/ros2_term/install/ramen_interfaces/include/ramen_interfaces/ramen_interfaces/action/detail/serve_ramen__type_support.h\n'}
+[11.123524] (ramen_interfaces) StdoutLine: {'line': b'-- Installing: /home/you/ros2_term/install/ramen_interfaces/include/ramen_interfaces/ramen_interfaces/msg\n'}
+[11.123637] (ramen_interfaces) StdoutLine: {'line': b'-- Installing: /home/you/ros2_term/install/ramen_interfaces/include/ramen_interfaces/ramen_interfaces/msg/cooked_ramen.h\n'}
+[11.123747] (ramen_interfaces) StdoutLine: {'line': b'-- Installing: /home/you/ros2_term/install/ramen_interfaces/include/ramen_interfaces/ramen_interfaces/msg/detail\n'}
+[11.123861] (ramen_interfaces) StdoutLine: {'line': b'-- Installing: /home/you/ros2_term/install/ramen_interfaces/include/ramen_interfaces/ramen_interfaces/msg/detail/cooked_ramen__functions.c\n'}
+[11.123972] (ramen_interfaces) StdoutLine: {'line': b'-- Installing: /home/you/ros2_term/install/ramen_interfaces/include/ramen_interfaces/ramen_interfaces/msg/detail/ramen_order__functions.h\n'}
+[11.124091] (ramen_interfaces) StdoutLine: {'line': b'-- Installing: /home/you/ros2_term/install/ramen_interfaces/include/ramen_interfaces/ramen_interfaces/msg/detail/ramen_order__type_support.h\n'}
+[11.124202] (ramen_interfaces) StdoutLine: {'line': b'-- Installing: /home/you/ros2_term/install/ramen_interfaces/include/ramen_interfaces/ramen_interfaces/msg/detail/cooked_ramen__type_support.h\n'}
+[11.124316] (ramen_interfaces) StdoutLine: {'line': b'-- Installing: /home/you/ros2_term/install/ramen_interfaces/include/ramen_interfaces/ramen_interfaces/msg/detail/ramen_order__functions.c\n'}
+[11.124427] (ramen_interfaces) StdoutLine: {'line': b'-- Installing: /home/you/ros2_term/install/ramen_interfaces/include/ramen_interfaces/ramen_interfaces/msg/detail/ramen_order__struct.h\n'}
+[11.124541] (ramen_interfaces) StdoutLine: {'line': b'-- Installing: /home/you/ros2_term/install/ramen_interfaces/include/ramen_interfaces/ramen_interfaces/msg/detail/cooked_ramen__struct.h\n'}
+[11.124652] (ramen_interfaces) StdoutLine: {'line': b'-- Installing: /home/you/ros2_term/install/ramen_interfaces/include/ramen_interfaces/ramen_interfaces/msg/detail/cooked_ramen__functions.h\n'}
+[11.124770] (ramen_interfaces) StdoutLine: {'line': b'-- Installing: /home/you/ros2_term/install/ramen_interfaces/include/ramen_interfaces/ramen_interfaces/msg/ramen_order.h\n'}
+[11.124878] (ramen_interfaces) StdoutLine: {'line': b'-- Installing: /home/you/ros2_term/install/ramen_interfaces/include/ramen_interfaces/ramen_interfaces/msg/rosidl_generator_c__visibility_control.h\n'}
+[11.125132] (ramen_interfaces) StdoutLine: {'line': b'-- Installing: /home/you/ros2_term/install/ramen_interfaces/share/ramen_interfaces/environment/library_path.sh\n'}
+[11.125281] (ramen_interfaces) StdoutLine: {'line': b'-- Installing: /home/you/ros2_term/install/ramen_interfaces/share/ramen_interfaces/environment/library_path.dsv\n'}
+[11.125483] (ramen_interfaces) StdoutLine: {'line': b'-- Installing: /home/you/ros2_term/install/ramen_interfaces/lib/libramen_interfaces__rosidl_generator_c.so\n'}
+[11.125817] (ramen_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/you/ros2_term/install/ramen_interfaces/lib/libramen_interfaces__rosidl_generator_c.so" to ""\n'}
+[11.125953] (ramen_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/you/ros2_term/install/ramen_interfaces/include/ramen_interfaces/ramen_interfaces\n'}
+[11.126108] (ramen_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/you/ros2_term/install/ramen_interfaces/include/ramen_interfaces/ramen_interfaces/action\n'}
+[11.126225] (ramen_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/you/ros2_term/install/ramen_interfaces/include/ramen_interfaces/ramen_interfaces/action/detail\n'}
+[11.126346] (ramen_interfaces) StdoutLine: {'line': b'-- Installing: /home/you/ros2_term/install/ramen_interfaces/include/ramen_interfaces/ramen_interfaces/action/detail/request_remake__rosidl_typesupport_fastrtps_c.h\n'}
+[11.126442] (ramen_interfaces) StdoutLine: {'line': b'-- Installing: /home/you/ros2_term/install/ramen_interfaces/include/ramen_interfaces/ramen_interfaces/action/detail/serve_ramen__rosidl_typesupport_fastrtps_c.h\n'}
+[11.126536] (ramen_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/you/ros2_term/install/ramen_interfaces/include/ramen_interfaces/ramen_interfaces/msg\n'}
+[11.126630] (ramen_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/you/ros2_term/install/ramen_interfaces/include/ramen_interfaces/ramen_interfaces/msg/detail\n'}
+[11.126767] (ramen_interfaces) StdoutLine: {'line': b'-- Installing: /home/you/ros2_term/install/ramen_interfaces/include/ramen_interfaces/ramen_interfaces/msg/detail/ramen_order__rosidl_typesupport_fastrtps_c.h\n'}
+[11.126866] (ramen_interfaces) StdoutLine: {'line': b'-- Installing: /home/you/ros2_term/install/ramen_interfaces/include/ramen_interfaces/ramen_interfaces/msg/detail/cooked_ramen__rosidl_typesupport_fastrtps_c.h\n'}
+[11.126956] (ramen_interfaces) StdoutLine: {'line': b'-- Installing: /home/you/ros2_term/install/ramen_interfaces/include/ramen_interfaces/ramen_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[11.127051] (ramen_interfaces) StdoutLine: {'line': b'-- Installing: /home/you/ros2_term/install/ramen_interfaces/lib/libramen_interfaces__rosidl_typesupport_fastrtps_c.so\n'}
+[11.127217] (ramen_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/you/ros2_term/install/ramen_interfaces/lib/libramen_interfaces__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[11.127356] (ramen_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/you/ros2_term/install/ramen_interfaces/include/ramen_interfaces/ramen_interfaces\n'}
+[11.127456] (ramen_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/you/ros2_term/install/ramen_interfaces/include/ramen_interfaces/ramen_interfaces/action\n'}
+[11.127587] (ramen_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/you/ros2_term/install/ramen_interfaces/include/ramen_interfaces/ramen_interfaces/action/detail\n'}
+[11.127699] (ramen_interfaces) StdoutLine: {'line': b'-- Installing: /home/you/ros2_term/install/ramen_interfaces/include/ramen_interfaces/ramen_interfaces/action/detail/serve_ramen__rosidl_typesupport_introspection_c.h\n'}
+[11.127792] (ramen_interfaces) StdoutLine: {'line': b'-- Installing: /home/you/ros2_term/install/ramen_interfaces/include/ramen_interfaces/ramen_interfaces/action/detail/request_remake__rosidl_typesupport_introspection_c.h\n'}
+[11.127885] (ramen_interfaces) StdoutLine: {'line': b'-- Installing: /home/you/ros2_term/install/ramen_interfaces/include/ramen_interfaces/ramen_interfaces/action/detail/serve_ramen__type_support.c\n'}
+[11.128007] (ramen_interfaces) StdoutLine: {'line': b'-- Installing: /home/you/ros2_term/install/ramen_interfaces/include/ramen_interfaces/ramen_interfaces/action/detail/request_remake__type_support.c\n'}
+[11.128126] (ramen_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/you/ros2_term/install/ramen_interfaces/include/ramen_interfaces/ramen_interfaces/msg\n'}
+[11.128231] (ramen_interfaces) StdoutLine: {'line': b'-- Installing: /home/you/ros2_term/install/ramen_interfaces/include/ramen_interfaces/ramen_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[11.128325] (ramen_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/you/ros2_term/install/ramen_interfaces/include/ramen_interfaces/ramen_interfaces/msg/detail\n'}
+[11.128450] (ramen_interfaces) StdoutLine: {'line': b'-- Installing: /home/you/ros2_term/install/ramen_interfaces/include/ramen_interfaces/ramen_interfaces/msg/detail/cooked_ramen__rosidl_typesupport_introspection_c.h\n'}
+[11.128543] (ramen_interfaces) StdoutLine: {'line': b'-- Installing: /home/you/ros2_term/install/ramen_interfaces/include/ramen_interfaces/ramen_interfaces/msg/detail/cooked_ramen__type_support.c\n'}
+[11.128637] (ramen_interfaces) StdoutLine: {'line': b'-- Installing: /home/you/ros2_term/install/ramen_interfaces/include/ramen_interfaces/ramen_interfaces/msg/detail/ramen_order__rosidl_typesupport_introspection_c.h\n'}
+[11.128759] (ramen_interfaces) StdoutLine: {'line': b'-- Installing: /home/you/ros2_term/install/ramen_interfaces/include/ramen_interfaces/ramen_interfaces/msg/detail/ramen_order__type_support.c\n'}
+[11.128894] (ramen_interfaces) StdoutLine: {'line': b'-- Installing: /home/you/ros2_term/install/ramen_interfaces/lib/libramen_interfaces__rosidl_typesupport_introspection_c.so\n'}
+[11.129185] (ramen_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/you/ros2_term/install/ramen_interfaces/lib/libramen_interfaces__rosidl_typesupport_introspection_c.so" to ""\n'}
+[11.129327] (ramen_interfaces) StdoutLine: {'line': b'-- Installing: /home/you/ros2_term/install/ramen_interfaces/lib/libramen_interfaces__rosidl_typesupport_c.so\n'}
+[11.129520] (ramen_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/you/ros2_term/install/ramen_interfaces/lib/libramen_interfaces__rosidl_typesupport_c.so" to ""\n'}
+[11.129682] (ramen_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/you/ros2_term/install/ramen_interfaces/include/ramen_interfaces/ramen_interfaces\n'}
+[11.129780] (ramen_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/you/ros2_term/install/ramen_interfaces/include/ramen_interfaces/ramen_interfaces/action\n'}
+[11.129877] (ramen_interfaces) StdoutLine: {'line': b'-- Installing: /home/you/ros2_term/install/ramen_interfaces/include/ramen_interfaces/ramen_interfaces/action/request_remake.hpp\n'}
+[11.130017] (ramen_interfaces) StdoutLine: {'line': b'-- Installing: /home/you/ros2_term/install/ramen_interfaces/include/ramen_interfaces/ramen_interfaces/action/serve_ramen.hpp\n'}
+[11.130148] (ramen_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/you/ros2_term/install/ramen_interfaces/include/ramen_interfaces/ramen_interfaces/action/detail\n'}
+[11.130240] (ramen_interfaces) StdoutLine: {'line': b'-- Installing: /home/you/ros2_term/install/ramen_interfaces/include/ramen_interfaces/ramen_interfaces/action/detail/request_remake__traits.hpp\n'}
+[11.130336] (ramen_interfaces) StdoutLine: {'line': b'-- Installing: /home/you/ros2_term/install/ramen_interfaces/include/ramen_interfaces/ramen_interfaces/action/detail/serve_ramen__traits.hpp\n'}
+[11.130460] (ramen_interfaces) StdoutLine: {'line': b'-- Installing: /home/you/ros2_term/install/ramen_interfaces/include/ramen_interfaces/ramen_interfaces/action/detail/request_remake__struct.hpp\n'}
+[11.130554] (ramen_interfaces) StdoutLine: {'line': b'-- Installing: /home/you/ros2_term/install/ramen_interfaces/include/ramen_interfaces/ramen_interfaces/action/detail/serve_ramen__builder.hpp\n'}
+[11.130681] (ramen_interfaces) StdoutLine: {'line': b'-- Installing: /home/you/ros2_term/install/ramen_interfaces/include/ramen_interfaces/ramen_interfaces/action/detail/serve_ramen__type_support.hpp\n'}
+[11.130778] (ramen_interfaces) StdoutLine: {'line': b'-- Installing: /home/you/ros2_term/install/ramen_interfaces/include/ramen_interfaces/ramen_interfaces/action/detail/serve_ramen__struct.hpp\n'}
+[11.130895] (ramen_interfaces) StdoutLine: {'line': b'-- Installing: /home/you/ros2_term/install/ramen_interfaces/include/ramen_interfaces/ramen_interfaces/action/detail/request_remake__builder.hpp\n'}
+[11.131009] (ramen_interfaces) StdoutLine: {'line': b'-- Installing: /home/you/ros2_term/install/ramen_interfaces/include/ramen_interfaces/ramen_interfaces/action/detail/request_remake__type_support.hpp\n'}
+[11.131144] (ramen_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/you/ros2_term/install/ramen_interfaces/include/ramen_interfaces/ramen_interfaces/msg\n'}
+[11.131238] (ramen_interfaces) StdoutLine: {'line': b'-- Installing: /home/you/ros2_term/install/ramen_interfaces/include/ramen_interfaces/ramen_interfaces/msg/ramen_order.hpp\n'}
+[11.131360] (ramen_interfaces) StdoutLine: {'line': b'-- Installing: /home/you/ros2_term/install/ramen_interfaces/include/ramen_interfaces/ramen_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp\n'}
+[11.131452] (ramen_interfaces) StdoutLine: {'line': b'-- Installing: /home/you/ros2_term/install/ramen_interfaces/include/ramen_interfaces/ramen_interfaces/msg/cooked_ramen.hpp\n'}
+[11.131571] (ramen_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/you/ros2_term/install/ramen_interfaces/include/ramen_interfaces/ramen_interfaces/msg/detail\n'}
+[11.131665] (ramen_interfaces) StdoutLine: {'line': b'-- Installing: /home/you/ros2_term/install/ramen_interfaces/include/ramen_interfaces/ramen_interfaces/msg/detail/ramen_order__traits.hpp\n'}
+[11.131785] (ramen_interfaces) StdoutLine: {'line': b'-- Installing: /home/you/ros2_term/install/ramen_interfaces/include/ramen_interfaces/ramen_interfaces/msg/detail/ramen_order__builder.hpp\n'}
+[11.131875] (ramen_interfaces) StdoutLine: {'line': b'-- Installing: /home/you/ros2_term/install/ramen_interfaces/include/ramen_interfaces/ramen_interfaces/msg/detail/cooked_ramen__struct.hpp\n'}
+[11.131993] (ramen_interfaces) StdoutLine: {'line': b'-- Installing: /home/you/ros2_term/install/ramen_interfaces/include/ramen_interfaces/ramen_interfaces/msg/detail/ramen_order__type_support.hpp\n'}
+[11.132094] (ramen_interfaces) StdoutLine: {'line': b'-- Installing: /home/you/ros2_term/install/ramen_interfaces/include/ramen_interfaces/ramen_interfaces/msg/detail/cooked_ramen__type_support.hpp\n'}
+[11.132201] (ramen_interfaces) StdoutLine: {'line': b'-- Installing: /home/you/ros2_term/install/ramen_interfaces/include/ramen_interfaces/ramen_interfaces/msg/detail/cooked_ramen__builder.hpp\n'}
+[11.132303] (ramen_interfaces) StdoutLine: {'line': b'-- Installing: /home/you/ros2_term/install/ramen_interfaces/include/ramen_interfaces/ramen_interfaces/msg/detail/ramen_order__struct.hpp\n'}
+[11.132457] (ramen_interfaces) StdoutLine: {'line': b'-- Installing: /home/you/ros2_term/install/ramen_interfaces/include/ramen_interfaces/ramen_interfaces/msg/detail/cooked_ramen__traits.hpp\n'}
+[11.132572] (ramen_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/you/ros2_term/install/ramen_interfaces/include/ramen_interfaces/ramen_interfaces\n'}
+[11.132699] (ramen_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/you/ros2_term/install/ramen_interfaces/include/ramen_interfaces/ramen_interfaces/action\n'}
+[11.132792] (ramen_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/you/ros2_term/install/ramen_interfaces/include/ramen_interfaces/ramen_interfaces/action/detail\n'}
+[11.132887] (ramen_interfaces) StdoutLine: {'line': b'-- Installing: /home/you/ros2_term/install/ramen_interfaces/include/ramen_interfaces/ramen_interfaces/action/detail/dds_fastrtps\n'}
+[11.133010] (ramen_interfaces) StdoutLine: {'line': b'-- Installing: /home/you/ros2_term/install/ramen_interfaces/include/ramen_interfaces/ramen_interfaces/action/detail/request_remake__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[11.133139] (ramen_interfaces) StdoutLine: {'line': b'-- Installing: /home/you/ros2_term/install/ramen_interfaces/include/ramen_interfaces/ramen_interfaces/action/detail/serve_ramen__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[11.133254] (ramen_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/you/ros2_term/install/ramen_interfaces/include/ramen_interfaces/ramen_interfaces/msg\n'}
+[11.133348] (ramen_interfaces) StdoutLine: {'line': b'-- Installing: /home/you/ros2_term/install/ramen_interfaces/include/ramen_interfaces/ramen_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[11.133460] (ramen_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/you/ros2_term/install/ramen_interfaces/include/ramen_interfaces/ramen_interfaces/msg/detail\n'}
+[11.133554] (ramen_interfaces) StdoutLine: {'line': b'-- Installing: /home/you/ros2_term/install/ramen_interfaces/include/ramen_interfaces/ramen_interfaces/msg/detail/cooked_ramen__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[11.133649] (ramen_interfaces) StdoutLine: {'line': b'-- Installing: /home/you/ros2_term/install/ramen_interfaces/include/ramen_interfaces/ramen_interfaces/msg/detail/dds_fastrtps\n'}
+[11.133781] (ramen_interfaces) StdoutLine: {'line': b'-- Installing: /home/you/ros2_term/install/ramen_interfaces/include/ramen_interfaces/ramen_interfaces/msg/detail/ramen_order__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[11.133903] (ramen_interfaces) StdoutLine: {'line': b'-- Installing: /home/you/ros2_term/install/ramen_interfaces/lib/libramen_interfaces__rosidl_typesupport_fastrtps_cpp.so\n'}
+[11.134165] (ramen_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/you/ros2_term/install/ramen_interfaces/lib/libramen_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[11.134321] (ramen_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/you/ros2_term/install/ramen_interfaces/include/ramen_interfaces/ramen_interfaces\n'}
+[11.134452] (ramen_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/you/ros2_term/install/ramen_interfaces/include/ramen_interfaces/ramen_interfaces/action\n'}
+[11.134545] (ramen_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/you/ros2_term/install/ramen_interfaces/include/ramen_interfaces/ramen_interfaces/action/detail\n'}
+[11.134633] (ramen_interfaces) StdoutLine: {'line': b'-- Installing: /home/you/ros2_term/install/ramen_interfaces/include/ramen_interfaces/ramen_interfaces/action/detail/serve_ramen__type_support.cpp\n'}
+[11.134739] (ramen_interfaces) StdoutLine: {'line': b'-- Installing: /home/you/ros2_term/install/ramen_interfaces/include/ramen_interfaces/ramen_interfaces/action/detail/serve_ramen__rosidl_typesupport_introspection_cpp.hpp\n'}
+[11.134842] (ramen_interfaces) StdoutLine: {'line': b'-- Installing: /home/you/ros2_term/install/ramen_interfaces/include/ramen_interfaces/ramen_interfaces/action/detail/request_remake__rosidl_typesupport_introspection_cpp.hpp\n'}
+[11.134900] (ramen_interfaces) StdoutLine: {'line': b'-- Installing: /home/you/ros2_term/install/ramen_interfaces/include/ramen_interfaces/ramen_interfaces/action/detail/request_remake__type_support.cpp\n'}
+[11.134958] (ramen_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/you/ros2_term/install/ramen_interfaces/include/ramen_interfaces/ramen_interfaces/msg\n'}
+[11.135012] (ramen_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/you/ros2_term/install/ramen_interfaces/include/ramen_interfaces/ramen_interfaces/msg/detail\n'}
+[11.135107] (ramen_interfaces) StdoutLine: {'line': b'-- Installing: /home/you/ros2_term/install/ramen_interfaces/include/ramen_interfaces/ramen_interfaces/msg/detail/cooked_ramen__rosidl_typesupport_introspection_cpp.hpp\n'}
+[11.135201] (ramen_interfaces) StdoutLine: {'line': b'-- Installing: /home/you/ros2_term/install/ramen_interfaces/include/ramen_interfaces/ramen_interfaces/msg/detail/ramen_order__type_support.cpp\n'}
+[11.135252] (ramen_interfaces) StdoutLine: {'line': b'-- Installing: /home/you/ros2_term/install/ramen_interfaces/include/ramen_interfaces/ramen_interfaces/msg/detail/cooked_ramen__type_support.cpp\n'}
+[11.135301] (ramen_interfaces) StdoutLine: {'line': b'-- Installing: /home/you/ros2_term/install/ramen_interfaces/include/ramen_interfaces/ramen_interfaces/msg/detail/ramen_order__rosidl_typesupport_introspection_cpp.hpp\n'}
+[11.135407] (ramen_interfaces) StdoutLine: {'line': b'-- Installing: /home/you/ros2_term/install/ramen_interfaces/lib/libramen_interfaces__rosidl_typesupport_introspection_cpp.so\n'}
+[11.135700] (ramen_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/you/ros2_term/install/ramen_interfaces/lib/libramen_interfaces__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[11.135846] (ramen_interfaces) StdoutLine: {'line': b'-- Installing: /home/you/ros2_term/install/ramen_interfaces/lib/libramen_interfaces__rosidl_typesupport_cpp.so\n'}
+[11.136151] (ramen_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/you/ros2_term/install/ramen_interfaces/lib/libramen_interfaces__rosidl_typesupport_cpp.so" to ""\n'}
+[11.136287] (ramen_interfaces) StdoutLine: {'line': b'-- Installing: /home/you/ros2_term/install/ramen_interfaces/share/ramen_interfaces/environment/pythonpath.sh\n'}
+[11.136408] (ramen_interfaces) StdoutLine: {'line': b'-- Installing: /home/you/ros2_term/install/ramen_interfaces/share/ramen_interfaces/environment/pythonpath.dsv\n'}
+[11.136523] (ramen_interfaces) StdoutLine: {'line': b'-- Installing: /home/you/ros2_term/install/ramen_interfaces/local/lib/python3.10/dist-packages/ramen_interfaces-0.0.0-py3.10.egg-info\n'}
+[11.136638] (ramen_interfaces) StdoutLine: {'line': b'-- Installing: /home/you/ros2_term/install/ramen_interfaces/local/lib/python3.10/dist-packages/ramen_interfaces-0.0.0-py3.10.egg-info/PKG-INFO\n'}
+[11.136752] (ramen_interfaces) StdoutLine: {'line': b'-- Installing: /home/you/ros2_term/install/ramen_interfaces/local/lib/python3.10/dist-packages/ramen_interfaces-0.0.0-py3.10.egg-info/dependency_links.txt\n'}
+[11.136878] (ramen_interfaces) StdoutLine: {'line': b'-- Installing: /home/you/ros2_term/install/ramen_interfaces/local/lib/python3.10/dist-packages/ramen_interfaces-0.0.0-py3.10.egg-info/SOURCES.txt\n'}
+[11.137041] (ramen_interfaces) StdoutLine: {'line': b'-- Installing: /home/you/ros2_term/install/ramen_interfaces/local/lib/python3.10/dist-packages/ramen_interfaces-0.0.0-py3.10.egg-info/top_level.txt\n'}
+[11.137174] (ramen_interfaces) StdoutLine: {'line': b'-- Installing: /home/you/ros2_term/install/ramen_interfaces/local/lib/python3.10/dist-packages/ramen_interfaces\n'}
+[11.137271] (ramen_interfaces) StdoutLine: {'line': b'-- Installing: /home/you/ros2_term/install/ramen_interfaces/local/lib/python3.10/dist-packages/ramen_interfaces/_ramen_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[11.137389] (ramen_interfaces) StdoutLine: {'line': b'-- Installing: /home/you/ros2_term/install/ramen_interfaces/local/lib/python3.10/dist-packages/ramen_interfaces/_ramen_interfaces_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[11.137541] (ramen_interfaces) StdoutLine: {'line': b'-- Installing: /home/you/ros2_term/install/ramen_interfaces/local/lib/python3.10/dist-packages/ramen_interfaces/__init__.py\n'}
+[11.137655] (ramen_interfaces) StdoutLine: {'line': b'-- Installing: /home/you/ros2_term/install/ramen_interfaces/local/lib/python3.10/dist-packages/ramen_interfaces/ramen_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[11.137822] (ramen_interfaces) StdoutLine: {'line': b'-- Installing: /home/you/ros2_term/install/ramen_interfaces/local/lib/python3.10/dist-packages/ramen_interfaces/libramen_interfaces__rosidl_generator_py.so\n'}
+[11.137989] (ramen_interfaces) StdoutLine: {'line': b'-- Installing: /home/you/ros2_term/install/ramen_interfaces/local/lib/python3.10/dist-packages/ramen_interfaces/ramen_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[11.138157] (ramen_interfaces) StdoutLine: {'line': b'-- Installing: /home/you/ros2_term/install/ramen_interfaces/local/lib/python3.10/dist-packages/ramen_interfaces/action\n'}
+[11.138271] (ramen_interfaces) StdoutLine: {'line': b'-- Installing: /home/you/ros2_term/install/ramen_interfaces/local/lib/python3.10/dist-packages/ramen_interfaces/action/_request_remake.py\n'}
+[11.138417] (ramen_interfaces) StdoutLine: {'line': b'-- Installing: /home/you/ros2_term/install/ramen_interfaces/local/lib/python3.10/dist-packages/ramen_interfaces/action/_request_remake_s.c\n'}
+[11.138555] (ramen_interfaces) StdoutLine: {'line': b'-- Installing: /home/you/ros2_term/install/ramen_interfaces/local/lib/python3.10/dist-packages/ramen_interfaces/action/_serve_ramen_s.c\n'}
+[11.138685] (ramen_interfaces) StdoutLine: {'line': b'-- Installing: /home/you/ros2_term/install/ramen_interfaces/local/lib/python3.10/dist-packages/ramen_interfaces/action/__init__.py\n'}
+[11.138794] (ramen_interfaces) StdoutLine: {'line': b'-- Installing: /home/you/ros2_term/install/ramen_interfaces/local/lib/python3.10/dist-packages/ramen_interfaces/action/_serve_ramen.py\n'}
+[11.138942] (ramen_interfaces) StdoutLine: {'line': b'-- Installing: /home/you/ros2_term/install/ramen_interfaces/local/lib/python3.10/dist-packages/ramen_interfaces/msg\n'}
+[11.139062] (ramen_interfaces) StdoutLine: {'line': b'-- Installing: /home/you/ros2_term/install/ramen_interfaces/local/lib/python3.10/dist-packages/ramen_interfaces/msg/_cooked_ramen.py\n'}
+[11.139175] (ramen_interfaces) StdoutLine: {'line': b'-- Installing: /home/you/ros2_term/install/ramen_interfaces/local/lib/python3.10/dist-packages/ramen_interfaces/msg/_ramen_order_s.c\n'}
+[11.139287] (ramen_interfaces) StdoutLine: {'line': b'-- Installing: /home/you/ros2_term/install/ramen_interfaces/local/lib/python3.10/dist-packages/ramen_interfaces/msg/_cooked_ramen_s.c\n'}
+[11.139406] (ramen_interfaces) StdoutLine: {'line': b'-- Installing: /home/you/ros2_term/install/ramen_interfaces/local/lib/python3.10/dist-packages/ramen_interfaces/msg/__init__.py\n'}
+[11.139518] (ramen_interfaces) StdoutLine: {'line': b'-- Installing: /home/you/ros2_term/install/ramen_interfaces/local/lib/python3.10/dist-packages/ramen_interfaces/msg/_ramen_order.py\n'}
+[11.139640] (ramen_interfaces) StdoutLine: {'line': b'-- Installing: /home/you/ros2_term/install/ramen_interfaces/local/lib/python3.10/dist-packages/ramen_interfaces/_ramen_interfaces_s.ep.rosidl_typesupport_c.c\n'}
+[11.139820] (ramen_interfaces) StdoutLine: {'line': b'-- Installing: /home/you/ros2_term/install/ramen_interfaces/local/lib/python3.10/dist-packages/ramen_interfaces/ramen_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[11.161312] (-) TimerEvent: {}
+[11.190027] (ramen_interfaces) StdoutLine: {'line': b"Listing '/home/you/ros2_term/install/ramen_interfaces/local/lib/python3.10/dist-packages/ramen_interfaces'...\n"}
+[11.190199] (ramen_interfaces) StdoutLine: {'line': b"Compiling '/home/you/ros2_term/install/ramen_interfaces/local/lib/python3.10/dist-packages/ramen_interfaces/__init__.py'...\n"}
+[11.190262] (ramen_interfaces) StdoutLine: {'line': b"Listing '/home/you/ros2_term/install/ramen_interfaces/local/lib/python3.10/dist-packages/ramen_interfaces/action'...\n"}
+[11.190317] (ramen_interfaces) StdoutLine: {'line': b"Compiling '/home/you/ros2_term/install/ramen_interfaces/local/lib/python3.10/dist-packages/ramen_interfaces/action/__init__.py'...\n"}
+[11.190415] (ramen_interfaces) StdoutLine: {'line': b"Compiling '/home/you/ros2_term/install/ramen_interfaces/local/lib/python3.10/dist-packages/ramen_interfaces/action/_request_remake.py'...\n"}
+[11.190482] (ramen_interfaces) StdoutLine: {'line': b"Compiling '/home/you/ros2_term/install/ramen_interfaces/local/lib/python3.10/dist-packages/ramen_interfaces/action/_serve_ramen.py'...\n"}
+[11.190536] (ramen_interfaces) StdoutLine: {'line': b"Listing '/home/you/ros2_term/install/ramen_interfaces/local/lib/python3.10/dist-packages/ramen_interfaces/msg'...\n"}
+[11.190586] (ramen_interfaces) StdoutLine: {'line': b"Compiling '/home/you/ros2_term/install/ramen_interfaces/local/lib/python3.10/dist-packages/ramen_interfaces/msg/__init__.py'...\n"}
+[11.190636] (ramen_interfaces) StdoutLine: {'line': b"Compiling '/home/you/ros2_term/install/ramen_interfaces/local/lib/python3.10/dist-packages/ramen_interfaces/msg/_cooked_ramen.py'...\n"}
+[11.190706] (ramen_interfaces) StdoutLine: {'line': b"Compiling '/home/you/ros2_term/install/ramen_interfaces/local/lib/python3.10/dist-packages/ramen_interfaces/msg/_ramen_order.py'...\n"}
+[11.195373] (ramen_interfaces) StdoutLine: {'line': b'-- Installing: /home/you/ros2_term/install/ramen_interfaces/local/lib/python3.10/dist-packages/ramen_interfaces/ramen_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[11.195611] (ramen_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/you/ros2_term/install/ramen_interfaces/local/lib/python3.10/dist-packages/ramen_interfaces/ramen_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[11.195769] (ramen_interfaces) StdoutLine: {'line': b'-- Installing: /home/you/ros2_term/install/ramen_interfaces/local/lib/python3.10/dist-packages/ramen_interfaces/ramen_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[11.196036] (ramen_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/you/ros2_term/install/ramen_interfaces/local/lib/python3.10/dist-packages/ramen_interfaces/ramen_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[11.196210] (ramen_interfaces) StdoutLine: {'line': b'-- Installing: /home/you/ros2_term/install/ramen_interfaces/local/lib/python3.10/dist-packages/ramen_interfaces/ramen_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[11.196458] (ramen_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/you/ros2_term/install/ramen_interfaces/local/lib/python3.10/dist-packages/ramen_interfaces/ramen_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[11.196546] (ramen_interfaces) StdoutLine: {'line': b'-- Installing: /home/you/ros2_term/install/ramen_interfaces/lib/libramen_interfaces__rosidl_generator_py.so\n'}
+[11.196839] (ramen_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/you/ros2_term/install/ramen_interfaces/lib/libramen_interfaces__rosidl_generator_py.so" to ""\n'}
+[11.196993] (ramen_interfaces) StdoutLine: {'line': b'-- Installing: /home/you/ros2_term/install/ramen_interfaces/share/ramen_interfaces/msg/RamenOrder.idl\n'}
+[11.197135] (ramen_interfaces) StdoutLine: {'line': b'-- Installing: /home/you/ros2_term/install/ramen_interfaces/share/ramen_interfaces/msg/CookedRamen.idl\n'}
+[11.197316] (ramen_interfaces) StdoutLine: {'line': b'-- Installing: /home/you/ros2_term/install/ramen_interfaces/share/ramen_interfaces/action/ServeRamen.idl\n'}
+[11.197420] (ramen_interfaces) StdoutLine: {'line': b'-- Installing: /home/you/ros2_term/install/ramen_interfaces/share/ramen_interfaces/action/RequestRemake.idl\n'}
+[11.197558] (ramen_interfaces) StdoutLine: {'line': b'-- Installing: /home/you/ros2_term/install/ramen_interfaces/share/ramen_interfaces/msg/RamenOrder.msg\n'}
+[11.197696] (ramen_interfaces) StdoutLine: {'line': b'-- Installing: /home/you/ros2_term/install/ramen_interfaces/share/ramen_interfaces/msg/CookedRamen.msg\n'}
+[11.197841] (ramen_interfaces) StdoutLine: {'line': b'-- Installing: /home/you/ros2_term/install/ramen_interfaces/share/ramen_interfaces/action/ServeRamen.action\n'}
+[11.197980] (ramen_interfaces) StdoutLine: {'line': b'-- Installing: /home/you/ros2_term/install/ramen_interfaces/share/ramen_interfaces/action/RequestRemake.action\n'}
+[11.198161] (ramen_interfaces) StdoutLine: {'line': b'-- Installing: /home/you/ros2_term/install/ramen_interfaces/share/ament_index/resource_index/package_run_dependencies/ramen_interfaces\n'}
+[11.198336] (ramen_interfaces) StdoutLine: {'line': b'-- Installing: /home/you/ros2_term/install/ramen_interfaces/share/ament_index/resource_index/parent_prefix_path/ramen_interfaces\n'}
+[11.198486] (ramen_interfaces) StdoutLine: {'line': b'-- Installing: /home/you/ros2_term/install/ramen_interfaces/share/ramen_interfaces/environment/ament_prefix_path.sh\n'}
+[11.198627] (ramen_interfaces) StdoutLine: {'line': b'-- Installing: /home/you/ros2_term/install/ramen_interfaces/share/ramen_interfaces/environment/ament_prefix_path.dsv\n'}
+[11.198777] (ramen_interfaces) StdoutLine: {'line': b'-- Installing: /home/you/ros2_term/install/ramen_interfaces/share/ramen_interfaces/environment/path.sh\n'}
+[11.198918] (ramen_interfaces) StdoutLine: {'line': b'-- Installing: /home/you/ros2_term/install/ramen_interfaces/share/ramen_interfaces/environment/path.dsv\n'}
+[11.199073] (ramen_interfaces) StdoutLine: {'line': b'-- Installing: /home/you/ros2_term/install/ramen_interfaces/share/ramen_interfaces/local_setup.bash\n'}
+[11.199218] (ramen_interfaces) StdoutLine: {'line': b'-- Installing: /home/you/ros2_term/install/ramen_interfaces/share/ramen_interfaces/local_setup.sh\n'}
+[11.199361] (ramen_interfaces) StdoutLine: {'line': b'-- Installing: /home/you/ros2_term/install/ramen_interfaces/share/ramen_interfaces/local_setup.zsh\n'}
+[11.199508] (ramen_interfaces) StdoutLine: {'line': b'-- Installing: /home/you/ros2_term/install/ramen_interfaces/share/ramen_interfaces/local_setup.dsv\n'}
+[11.199648] (ramen_interfaces) StdoutLine: {'line': b'-- Installing: /home/you/ros2_term/install/ramen_interfaces/share/ramen_interfaces/package.dsv\n'}
+[11.199822] (ramen_interfaces) StdoutLine: {'line': b'-- Installing: /home/you/ros2_term/install/ramen_interfaces/share/ament_index/resource_index/packages/ramen_interfaces\n'}
+[11.200003] (ramen_interfaces) StdoutLine: {'line': b'-- Installing: /home/you/ros2_term/install/ramen_interfaces/share/ramen_interfaces/cmake/export_ramen_interfaces__rosidl_generator_cExport.cmake\n'}
+[11.200162] (ramen_interfaces) StdoutLine: {'line': b'-- Installing: /home/you/ros2_term/install/ramen_interfaces/share/ramen_interfaces/cmake/export_ramen_interfaces__rosidl_generator_cExport-noconfig.cmake\n'}
+[11.200323] (ramen_interfaces) StdoutLine: {'line': b'-- Installing: /home/you/ros2_term/install/ramen_interfaces/share/ramen_interfaces/cmake/export_ramen_interfaces__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[11.200473] (ramen_interfaces) StdoutLine: {'line': b'-- Installing: /home/you/ros2_term/install/ramen_interfaces/share/ramen_interfaces/cmake/export_ramen_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[11.200638] (ramen_interfaces) StdoutLine: {'line': b'-- Installing: /home/you/ros2_term/install/ramen_interfaces/share/ramen_interfaces/cmake/ramen_interfaces__rosidl_typesupport_introspection_cExport.cmake\n'}
+[11.200783] (ramen_interfaces) StdoutLine: {'line': b'-- Installing: /home/you/ros2_term/install/ramen_interfaces/share/ramen_interfaces/cmake/ramen_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[11.200942] (ramen_interfaces) StdoutLine: {'line': b'-- Installing: /home/you/ros2_term/install/ramen_interfaces/share/ramen_interfaces/cmake/ramen_interfaces__rosidl_typesupport_cExport.cmake\n'}
+[11.201102] (ramen_interfaces) StdoutLine: {'line': b'-- Installing: /home/you/ros2_term/install/ramen_interfaces/share/ramen_interfaces/cmake/ramen_interfaces__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[11.201313] (ramen_interfaces) StdoutLine: {'line': b'-- Installing: /home/you/ros2_term/install/ramen_interfaces/share/ramen_interfaces/cmake/export_ramen_interfaces__rosidl_generator_cppExport.cmake\n'}
+[11.201495] (ramen_interfaces) StdoutLine: {'line': b'-- Installing: /home/you/ros2_term/install/ramen_interfaces/share/ramen_interfaces/cmake/export_ramen_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[11.201670] (ramen_interfaces) StdoutLine: {'line': b'-- Installing: /home/you/ros2_term/install/ramen_interfaces/share/ramen_interfaces/cmake/export_ramen_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[11.201812] (ramen_interfaces) StdoutLine: {'line': b'-- Installing: /home/you/ros2_term/install/ramen_interfaces/share/ramen_interfaces/cmake/ramen_interfaces__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[11.201959] (ramen_interfaces) StdoutLine: {'line': b'-- Installing: /home/you/ros2_term/install/ramen_interfaces/share/ramen_interfaces/cmake/ramen_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[11.202183] (ramen_interfaces) StdoutLine: {'line': b'-- Installing: /home/you/ros2_term/install/ramen_interfaces/share/ramen_interfaces/cmake/ramen_interfaces__rosidl_typesupport_cppExport.cmake\n'}
+[11.202414] (ramen_interfaces) StdoutLine: {'line': b'-- Installing: /home/you/ros2_term/install/ramen_interfaces/share/ramen_interfaces/cmake/ramen_interfaces__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[11.202535] (ramen_interfaces) StdoutLine: {'line': b'-- Installing: /home/you/ros2_term/install/ramen_interfaces/share/ramen_interfaces/cmake/export_ramen_interfaces__rosidl_generator_pyExport.cmake\n'}
+[11.202619] (ramen_interfaces) StdoutLine: {'line': b'-- Installing: /home/you/ros2_term/install/ramen_interfaces/share/ramen_interfaces/cmake/export_ramen_interfaces__rosidl_generator_pyExport-noconfig.cmake\n'}
+[11.202715] (ramen_interfaces) StdoutLine: {'line': b'-- Installing: /home/you/ros2_term/install/ramen_interfaces/share/ramen_interfaces/cmake/rosidl_cmake-extras.cmake\n'}
+[11.202811] (ramen_interfaces) StdoutLine: {'line': b'-- Installing: /home/you/ros2_term/install/ramen_interfaces/share/ramen_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[11.202912] (ramen_interfaces) StdoutLine: {'line': b'-- Installing: /home/you/ros2_term/install/ramen_interfaces/share/ramen_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[11.203015] (ramen_interfaces) StdoutLine: {'line': b'-- Installing: /home/you/ros2_term/install/ramen_interfaces/share/ramen_interfaces/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[11.203128] (ramen_interfaces) StdoutLine: {'line': b'-- Installing: /home/you/ros2_term/install/ramen_interfaces/share/ramen_interfaces/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[11.203227] (ramen_interfaces) StdoutLine: {'line': b'-- Installing: /home/you/ros2_term/install/ramen_interfaces/share/ramen_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[11.203325] (ramen_interfaces) StdoutLine: {'line': b'-- Installing: /home/you/ros2_term/install/ramen_interfaces/share/ramen_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[11.203429] (ramen_interfaces) StdoutLine: {'line': b'-- Installing: /home/you/ros2_term/install/ramen_interfaces/share/ramen_interfaces/cmake/ramen_interfacesConfig.cmake\n'}
+[11.203506] (ramen_interfaces) StdoutLine: {'line': b'-- Installing: /home/you/ros2_term/install/ramen_interfaces/share/ramen_interfaces/cmake/ramen_interfacesConfig-version.cmake\n'}
+[11.203599] (ramen_interfaces) StdoutLine: {'line': b'-- Installing: /home/you/ros2_term/install/ramen_interfaces/share/ramen_interfaces/package.xml\n'}
+[11.205382] (ramen_interfaces) CommandEnded: {'returncode': 0}
+[11.227980] (ramen_interfaces) JobEnded: {'identifier': 'ramen_interfaces', 'rc': 0}
+[11.228667] (ramen_kitchen) JobStarted: {'identifier': 'ramen_kitchen'}
+[11.232403] (ramen_serving) JobStarted: {'identifier': 'ramen_serving'}
+[11.239798] (ramen_table) JobStarted: {'identifier': 'ramen_table'}
+[11.262351] (-) TimerEvent: {}
+[11.362936] (-) TimerEvent: {}
+[11.463289] (-) TimerEvent: {}
+[11.563602] (-) TimerEvent: {}
+[11.663982] (-) TimerEvent: {}
+[11.764279] (-) TimerEvent: {}
+[11.864598] (-) TimerEvent: {}
+[11.964857] (-) TimerEvent: {}
+[12.065146] (-) TimerEvent: {}
+[12.165492] (-) TimerEvent: {}
+[12.265765] (-) TimerEvent: {}
+[12.366096] (-) TimerEvent: {}
+[12.466394] (-) TimerEvent: {}
+[12.566695] (-) TimerEvent: {}
+[12.667002] (-) TimerEvent: {}
+[12.768480] (-) TimerEvent: {}
+[12.868840] (-) TimerEvent: {}
+[12.969269] (-) TimerEvent: {}
+[12.985534] (ramen_serving) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../build/ramen_serving', 'build', '--build-base', '/home/you/ros2_term/build/ramen_serving/build', 'install', '--record', '/home/you/ros2_term/build/ramen_serving/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/you/ros2_term/ramen_serving', 'env': {'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'en', 'USER': 'you', 'LC_TIME': 'en_US.UTF-8', 'XDG_SESSION_TYPE': 'wayland', 'GIT_ASKPASS': '/usr/share/code/resources/app/extensions/git/dist/askpass.sh', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/you/ros2_term/install/ramen_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/you', 'CHROME_DESKTOP': 'code.desktop', 'CONDA_SHLVL': '0', 'TERM_PROGRAM_VERSION': '1.103.2', 'DESKTOP_SESSION': 'ubuntu', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/code.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'VSCODE_GIT_ASKPASS_MAIN': '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js', 'LC_MONETARY': 'en_US.UTF-8', 'VSCODE_GIT_ASKPASS_NODE': '/usr/share/code/code', 'MANAGERPID': '946', 'SYSTEMD_EXEC_PID': '1132', 'IM_CONFIG_CHECK_ENV': '1', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', '_CE_M': '', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '4751', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'humble', 'LOGNAME': 'you', 'JOURNAL_STREAM': '8:9117', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'you', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', '_CE_CONDA': '', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/home/you/.local/bin:/home/you/.local/bin:/opt/ros/humble/bin:/home/you/miniconda3/condabin:/home/you/.local/bin:/home/you/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/you/.config/Code/User/globalStorage/github.copilot-chat/debugCommand', 'SESSION_MANAGER': 'local/you-550XCJ-550XCR:@/tmp/.ICE-unix/1101,unix/you-550XCJ-550XCR:/tmp/.ICE-unix/1101', 'INVOCATION_ID': '441a37023b664eecb2adfa1576f4b7d3', 'PAPERSIZE': 'letter', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'en_US.UTF-8', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'GDK_BACKEND': 'x11', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'Unity', 'LC_TELEPHONE': 'en_US.UTF-8', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.Y7N8F3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-8404074945.sock', 'TERM_PROGRAM': 'vscode', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/you/ros2_term/install/ramen_interfaces:/opt/ros/humble', 'CONDA_PYTHON_EXE': '/home/you/miniconda3/bin/python', 'ORIGINAL_XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'SHELL': '/bin/bash', 'LC_NAME': 'en_US.UTF-8', 'QT_ACCESSIBILITY': '1', 'ROS_MASTER_URI': 'http://localhost:11311', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'en_US.UTF-8', 'GJS_DEBUG_OUTPUT': 'stderr', 'LC_IDENTIFICATION': 'en_US.UTF-8', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/you/ros2_term/build/ramen_serving', 'TURTLEBOT3_MODEL': 'burger', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'CONDA_EXE': '/home/you/miniconda3/bin/conda', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/you/ros2_term/build/ramen_serving/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/you/ros2_term/install/ramen_serving/lib/python3.10/site-packages:/home/you/ros2_term/install/ramen_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'ROS_HOSTNAME': 'localhost', 'LC_NUMERIC': 'en_US.UTF-8', 'LC_PAPER': 'en_US.UTF-8', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/you/ros2_term/install/ramen_interfaces'}, 'shell': False}
+[13.016265] (ramen_kitchen) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../build/ramen_kitchen', 'build', '--build-base', '/home/you/ros2_term/build/ramen_kitchen/build', 'install', '--record', '/home/you/ros2_term/build/ramen_kitchen/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/you/ros2_term/ramen_kitchen', 'env': {'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'en', 'USER': 'you', 'LC_TIME': 'en_US.UTF-8', 'XDG_SESSION_TYPE': 'wayland', 'GIT_ASKPASS': '/usr/share/code/resources/app/extensions/git/dist/askpass.sh', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/you/ros2_term/install/ramen_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/you', 'CHROME_DESKTOP': 'code.desktop', 'CONDA_SHLVL': '0', 'TERM_PROGRAM_VERSION': '1.103.2', 'DESKTOP_SESSION': 'ubuntu', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/code.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'VSCODE_GIT_ASKPASS_MAIN': '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js', 'LC_MONETARY': 'en_US.UTF-8', 'VSCODE_GIT_ASKPASS_NODE': '/usr/share/code/code', 'MANAGERPID': '946', 'SYSTEMD_EXEC_PID': '1132', 'IM_CONFIG_CHECK_ENV': '1', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', '_CE_M': '', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '4751', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'humble', 'LOGNAME': 'you', 'JOURNAL_STREAM': '8:9117', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'you', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', '_CE_CONDA': '', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/home/you/.local/bin:/home/you/.local/bin:/opt/ros/humble/bin:/home/you/miniconda3/condabin:/home/you/.local/bin:/home/you/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/you/.config/Code/User/globalStorage/github.copilot-chat/debugCommand', 'SESSION_MANAGER': 'local/you-550XCJ-550XCR:@/tmp/.ICE-unix/1101,unix/you-550XCJ-550XCR:/tmp/.ICE-unix/1101', 'INVOCATION_ID': '441a37023b664eecb2adfa1576f4b7d3', 'PAPERSIZE': 'letter', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'en_US.UTF-8', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'GDK_BACKEND': 'x11', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'Unity', 'LC_TELEPHONE': 'en_US.UTF-8', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.Y7N8F3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-8404074945.sock', 'TERM_PROGRAM': 'vscode', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/you/ros2_term/install/ramen_interfaces:/opt/ros/humble', 'CONDA_PYTHON_EXE': '/home/you/miniconda3/bin/python', 'ORIGINAL_XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'SHELL': '/bin/bash', 'LC_NAME': 'en_US.UTF-8', 'QT_ACCESSIBILITY': '1', 'ROS_MASTER_URI': 'http://localhost:11311', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'en_US.UTF-8', 'GJS_DEBUG_OUTPUT': 'stderr', 'LC_IDENTIFICATION': 'en_US.UTF-8', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/you/ros2_term/build/ramen_kitchen', 'TURTLEBOT3_MODEL': 'burger', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'CONDA_EXE': '/home/you/miniconda3/bin/conda', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/you/ros2_term/build/ramen_kitchen/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/you/ros2_term/install/ramen_kitchen/lib/python3.10/site-packages:/home/you/ros2_term/install/ramen_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'ROS_HOSTNAME': 'localhost', 'LC_NUMERIC': 'en_US.UTF-8', 'LC_PAPER': 'en_US.UTF-8', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/you/ros2_term/install/ramen_interfaces'}, 'shell': False}
+[13.021798] (ramen_table) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../build/ramen_table', 'build', '--build-base', '/home/you/ros2_term/build/ramen_table/build', 'install', '--record', '/home/you/ros2_term/build/ramen_table/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/you/ros2_term/ramen_table', 'env': {'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'en', 'USER': 'you', 'LC_TIME': 'en_US.UTF-8', 'XDG_SESSION_TYPE': 'wayland', 'GIT_ASKPASS': '/usr/share/code/resources/app/extensions/git/dist/askpass.sh', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/you/ros2_term/install/ramen_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/you', 'CHROME_DESKTOP': 'code.desktop', 'CONDA_SHLVL': '0', 'TERM_PROGRAM_VERSION': '1.103.2', 'DESKTOP_SESSION': 'ubuntu', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/code.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'VSCODE_GIT_ASKPASS_MAIN': '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js', 'LC_MONETARY': 'en_US.UTF-8', 'VSCODE_GIT_ASKPASS_NODE': '/usr/share/code/code', 'MANAGERPID': '946', 'SYSTEMD_EXEC_PID': '1132', 'IM_CONFIG_CHECK_ENV': '1', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', '_CE_M': '', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '4751', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'humble', 'LOGNAME': 'you', 'JOURNAL_STREAM': '8:9117', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'you', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', '_CE_CONDA': '', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/home/you/.local/bin:/home/you/.local/bin:/opt/ros/humble/bin:/home/you/miniconda3/condabin:/home/you/.local/bin:/home/you/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/you/.config/Code/User/globalStorage/github.copilot-chat/debugCommand', 'SESSION_MANAGER': 'local/you-550XCJ-550XCR:@/tmp/.ICE-unix/1101,unix/you-550XCJ-550XCR:/tmp/.ICE-unix/1101', 'INVOCATION_ID': '441a37023b664eecb2adfa1576f4b7d3', 'PAPERSIZE': 'letter', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'en_US.UTF-8', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'GDK_BACKEND': 'x11', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'Unity', 'LC_TELEPHONE': 'en_US.UTF-8', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.Y7N8F3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-8404074945.sock', 'TERM_PROGRAM': 'vscode', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/you/ros2_term/install/ramen_interfaces:/opt/ros/humble', 'CONDA_PYTHON_EXE': '/home/you/miniconda3/bin/python', 'ORIGINAL_XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'SHELL': '/bin/bash', 'LC_NAME': 'en_US.UTF-8', 'QT_ACCESSIBILITY': '1', 'ROS_MASTER_URI': 'http://localhost:11311', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'en_US.UTF-8', 'GJS_DEBUG_OUTPUT': 'stderr', 'LC_IDENTIFICATION': 'en_US.UTF-8', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/you/ros2_term/build/ramen_table', 'TURTLEBOT3_MODEL': 'burger', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'CONDA_EXE': '/home/you/miniconda3/bin/conda', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/you/ros2_term/build/ramen_table/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/you/ros2_term/install/ramen_table/lib/python3.10/site-packages:/home/you/ros2_term/install/ramen_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'ROS_HOSTNAME': 'localhost', 'LC_NUMERIC': 'en_US.UTF-8', 'LC_PAPER': 'en_US.UTF-8', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/you/ros2_term/install/ramen_interfaces'}, 'shell': False}
+[13.069361] (-) TimerEvent: {}
+[13.169817] (-) TimerEvent: {}
+[13.270089] (-) TimerEvent: {}
+[13.332321] (ramen_table) StdoutLine: {'line': b'running egg_info\n'}
+[13.333101] (ramen_table) StdoutLine: {'line': b'creating ../build/ramen_table/ramen_table.egg-info\n'}
+[13.333618] (ramen_table) StdoutLine: {'line': b'writing ../build/ramen_table/ramen_table.egg-info/PKG-INFO\n'}
+[13.334069] (ramen_table) StdoutLine: {'line': b'writing dependency_links to ../build/ramen_table/ramen_table.egg-info/dependency_links.txt\n'}
+[13.335388] (ramen_table) StdoutLine: {'line': b'writing entry points to ../build/ramen_table/ramen_table.egg-info/entry_points.txt\n'}
+[13.335588] (ramen_table) StdoutLine: {'line': b'writing requirements to ../build/ramen_table/ramen_table.egg-info/requires.txt\n'}
+[13.335688] (ramen_table) StdoutLine: {'line': b'writing top-level names to ../build/ramen_table/ramen_table.egg-info/top_level.txt\n'}
+[13.335771] (ramen_table) StdoutLine: {'line': b"writing manifest file '../build/ramen_table/ramen_table.egg-info/SOURCES.txt'\n"}
+[13.337414] (ramen_table) StdoutLine: {'line': b"reading manifest file '../build/ramen_table/ramen_table.egg-info/SOURCES.txt'\n"}
+[13.338381] (ramen_table) StdoutLine: {'line': b"writing manifest file '../build/ramen_table/ramen_table.egg-info/SOURCES.txt'\n"}
+[13.338769] (ramen_table) StdoutLine: {'line': b'running build\n'}
+[13.338837] (ramen_table) StdoutLine: {'line': b'running build_py\n'}
+[13.338890] (ramen_table) StdoutLine: {'line': b'creating /home/you/ros2_term/build/ramen_table/build\n'}
+[13.338941] (ramen_table) StdoutLine: {'line': b'creating /home/you/ros2_term/build/ramen_table/build/lib\n'}
+[13.338991] (ramen_table) StdoutLine: {'line': b'creating /home/you/ros2_term/build/ramen_table/build/lib/ramen_table\n'}
+[13.339049] (ramen_table) StdoutLine: {'line': b'copying ramen_table/customer_node.py -> /home/you/ros2_term/build/ramen_table/build/lib/ramen_table\n'}
+[13.346478] (ramen_table) StdoutLine: {'line': b'copying ramen_table/__init__.py -> /home/you/ros2_term/build/ramen_table/build/lib/ramen_table\n'}
+[13.346695] (ramen_table) StdoutLine: {'line': b'copying ramen_table/order_node.py -> /home/you/ros2_term/build/ramen_table/build/lib/ramen_table\n'}
+[13.346991] (ramen_table) StdoutLine: {'line': b'running install\n'}
+[13.347403] (ramen_table) StdoutLine: {'line': b'running install_lib\n'}
+[13.348303] (ramen_table) StdoutLine: {'line': b'creating /home/you/ros2_term/install/ramen_table/lib/python3.10/site-packages/ramen_table\n'}
+[13.348489] (ramen_table) StdoutLine: {'line': b'copying /home/you/ros2_term/build/ramen_table/build/lib/ramen_table/customer_node.py -> /home/you/ros2_term/install/ramen_table/lib/python3.10/site-packages/ramen_table\n'}
+[13.348673] (ramen_table) StdoutLine: {'line': b'copying /home/you/ros2_term/build/ramen_table/build/lib/ramen_table/__init__.py -> /home/you/ros2_term/install/ramen_table/lib/python3.10/site-packages/ramen_table\n'}
+[13.348774] (ramen_table) StdoutLine: {'line': b'copying /home/you/ros2_term/build/ramen_table/build/lib/ramen_table/order_node.py -> /home/you/ros2_term/install/ramen_table/lib/python3.10/site-packages/ramen_table\n'}
+[13.349242] (ramen_table) StdoutLine: {'line': b'byte-compiling /home/you/ros2_term/install/ramen_table/lib/python3.10/site-packages/ramen_table/customer_node.py to customer_node.cpython-310.pyc\n'}
+[13.350152] (ramen_table) StdoutLine: {'line': b'byte-compiling /home/you/ros2_term/install/ramen_table/lib/python3.10/site-packages/ramen_table/__init__.py to __init__.cpython-310.pyc\n'}
+[13.350353] (ramen_table) StdoutLine: {'line': b'byte-compiling /home/you/ros2_term/install/ramen_table/lib/python3.10/site-packages/ramen_table/order_node.py to order_node.cpython-310.pyc\n'}
+[13.350900] (ramen_table) StdoutLine: {'line': b'running install_data\n'}
+[13.351243] (ramen_table) StdoutLine: {'line': b'creating /home/you/ros2_term/install/ramen_table/share/ament_index\n'}
+[13.351486] (ramen_table) StdoutLine: {'line': b'creating /home/you/ros2_term/install/ramen_table/share/ament_index/resource_index\n'}
+[13.351587] (ramen_table) StdoutLine: {'line': b'creating /home/you/ros2_term/install/ramen_table/share/ament_index/resource_index/packages\n'}
+[13.351669] (ramen_table) StdoutLine: {'line': b'copying resource/ramen_table -> /home/you/ros2_term/install/ramen_table/share/ament_index/resource_index/packages\n'}
+[13.352064] (ramen_table) StdoutLine: {'line': b'copying package.xml -> /home/you/ros2_term/install/ramen_table/share/ramen_table\n'}
+[13.352181] (ramen_table) StdoutLine: {'line': b'running install_egg_info\n'}
+[13.353792] (ramen_table) StdoutLine: {'line': b'Copying ../build/ramen_table/ramen_table.egg-info to /home/you/ros2_term/install/ramen_table/lib/python3.10/site-packages/ramen_table-0.0.0-py3.10.egg-info\n'}
+[13.354592] (ramen_table) StdoutLine: {'line': b'running install_scripts\n'}
+[13.370191] (-) TimerEvent: {}
+[13.376013] (ramen_table) StdoutLine: {'line': b'Installing customer_node script to /home/you/ros2_term/install/ramen_table/lib/ramen_table\n'}
+[13.377396] (ramen_table) StdoutLine: {'line': b'Installing order_node script to /home/you/ros2_term/install/ramen_table/lib/ramen_table\n'}
+[13.377600] (ramen_table) StdoutLine: {'line': b"writing list of installed files to '/home/you/ros2_term/build/ramen_table/install.log'\n"}
+[13.421804] (ramen_table) CommandEnded: {'returncode': 0}
+[13.428900] (ramen_table) JobEnded: {'identifier': 'ramen_table', 'rc': 0}
+[13.471083] (-) TimerEvent: {}
+[13.485641] (ramen_serving) StdoutLine: {'line': b'running egg_info\n'}
+[13.487106] (ramen_serving) StdoutLine: {'line': b'creating ../build/ramen_serving/ramen_serving.egg-info\n'}
+[13.487288] (ramen_serving) StdoutLine: {'line': b'writing ../build/ramen_serving/ramen_serving.egg-info/PKG-INFO\n'}
+[13.489906] (ramen_serving) StdoutLine: {'line': b'writing dependency_links to ../build/ramen_serving/ramen_serving.egg-info/dependency_links.txt\n'}
+[13.490105] (ramen_serving) StdoutLine: {'line': b'writing entry points to ../build/ramen_serving/ramen_serving.egg-info/entry_points.txt\n'}
+[13.490204] (ramen_serving) StdoutLine: {'line': b'writing requirements to ../build/ramen_serving/ramen_serving.egg-info/requires.txt\n'}
+[13.490295] (ramen_serving) StdoutLine: {'line': b'writing top-level names to ../build/ramen_serving/ramen_serving.egg-info/top_level.txt\n'}
+[13.490377] (ramen_serving) StdoutLine: {'line': b"writing manifest file '../build/ramen_serving/ramen_serving.egg-info/SOURCES.txt'\n"}
+[13.492127] (ramen_serving) StdoutLine: {'line': b"reading manifest file '../build/ramen_serving/ramen_serving.egg-info/SOURCES.txt'\n"}
+[13.492467] (ramen_serving) StdoutLine: {'line': b"writing manifest file '../build/ramen_serving/ramen_serving.egg-info/SOURCES.txt'\n"}
+[13.493196] (ramen_serving) StdoutLine: {'line': b'running build\n'}
+[13.493370] (ramen_serving) StdoutLine: {'line': b'running build_py\n'}
+[13.493459] (ramen_serving) StdoutLine: {'line': b'creating /home/you/ros2_term/build/ramen_serving/build\n'}
+[13.493544] (ramen_serving) StdoutLine: {'line': b'creating /home/you/ros2_term/build/ramen_serving/build/lib\n'}
+[13.493627] (ramen_serving) StdoutLine: {'line': b'creating /home/you/ros2_term/build/ramen_serving/build/lib/ramen_serving\n'}
+[13.493719] (ramen_serving) StdoutLine: {'line': b'copying ramen_serving/__init__.py -> /home/you/ros2_term/build/ramen_serving/build/lib/ramen_serving\n'}
+[13.495666] (ramen_serving) StdoutLine: {'line': b'copying ramen_serving/robot_node.py -> /home/you/ros2_term/build/ramen_serving/build/lib/ramen_serving\n'}
+[13.503614] (ramen_serving) StdoutLine: {'line': b'running install\n'}
+[13.504099] (ramen_serving) StdoutLine: {'line': b'running install_lib\n'}
+[13.507173] (ramen_kitchen) StdoutLine: {'line': b'running egg_info\n'}
+[13.507378] (ramen_kitchen) StdoutLine: {'line': b'creating ../build/ramen_kitchen/ramen_kitchen.egg-info\n'}
+[13.507470] (ramen_kitchen) StdoutLine: {'line': b'writing ../build/ramen_kitchen/ramen_kitchen.egg-info/PKG-INFO\n'}
+[13.507554] (ramen_kitchen) StdoutLine: {'line': b'writing dependency_links to ../build/ramen_kitchen/ramen_kitchen.egg-info/dependency_links.txt\n'}
+[13.507637] (ramen_kitchen) StdoutLine: {'line': b'writing entry points to ../build/ramen_kitchen/ramen_kitchen.egg-info/entry_points.txt\n'}
+[13.507719] (ramen_kitchen) StdoutLine: {'line': b'writing requirements to ../build/ramen_kitchen/ramen_kitchen.egg-info/requires.txt\n'}
+[13.507800] (ramen_kitchen) StdoutLine: {'line': b'writing top-level names to ../build/ramen_kitchen/ramen_kitchen.egg-info/top_level.txt\n'}
+[13.507879] (ramen_kitchen) StdoutLine: {'line': b"writing manifest file '../build/ramen_kitchen/ramen_kitchen.egg-info/SOURCES.txt'\n"}
+[13.508878] (ramen_serving) StdoutLine: {'line': b'creating /home/you/ros2_term/install/ramen_serving/lib/python3.10/site-packages/ramen_serving\n'}
+[13.509045] (ramen_serving) StdoutLine: {'line': b'copying /home/you/ros2_term/build/ramen_serving/build/lib/ramen_serving/__init__.py -> /home/you/ros2_term/install/ramen_serving/lib/python3.10/site-packages/ramen_serving\n'}
+[13.509151] (ramen_serving) StdoutLine: {'line': b'copying /home/you/ros2_term/build/ramen_serving/build/lib/ramen_serving/robot_node.py -> /home/you/ros2_term/install/ramen_serving/lib/python3.10/site-packages/ramen_serving\n'}
+[13.511090] (ramen_serving) StdoutLine: {'line': b'byte-compiling /home/you/ros2_term/install/ramen_serving/lib/python3.10/site-packages/ramen_serving/__init__.py to __init__.cpython-310.pyc\n'}
+[13.511365] (ramen_serving) StdoutLine: {'line': b'byte-compiling /home/you/ros2_term/install/ramen_serving/lib/python3.10/site-packages/ramen_serving/robot_node.py to robot_node.cpython-310.pyc\n'}
+[13.511482] (ramen_kitchen) StdoutLine: {'line': b"reading manifest file '../build/ramen_kitchen/ramen_kitchen.egg-info/SOURCES.txt'\n"}
+[13.512679] (ramen_kitchen) StdoutLine: {'line': b"writing manifest file '../build/ramen_kitchen/ramen_kitchen.egg-info/SOURCES.txt'\n"}
+[13.512852] (ramen_kitchen) StdoutLine: {'line': b'running build\n'}
+[13.512943] (ramen_kitchen) StdoutLine: {'line': b'running build_py\n'}
+[13.513026] (ramen_kitchen) StdoutLine: {'line': b'creating /home/you/ros2_term/build/ramen_kitchen/build\n'}
+[13.513128] (ramen_kitchen) StdoutLine: {'line': b'creating /home/you/ros2_term/build/ramen_kitchen/build/lib\n'}
+[13.513208] (ramen_serving) StdoutLine: {'line': b'running install_data\n'}
+[13.513299] (ramen_kitchen) StdoutLine: {'line': b'creating /home/you/ros2_term/build/ramen_kitchen/build/lib/ramen_kitchen\n'}
+[13.513382] (ramen_serving) StdoutLine: {'line': b'creating /home/you/ros2_term/install/ramen_serving/share/ament_index\n'}
+[13.513465] (ramen_serving) StdoutLine: {'line': b'creating /home/you/ros2_term/install/ramen_serving/share/ament_index/resource_index\n'}
+[13.513546] (ramen_serving) StdoutLine: {'line': b'creating /home/you/ros2_term/install/ramen_serving/share/ament_index/resource_index/packages\n'}
+[13.513629] (ramen_kitchen) StdoutLine: {'line': b'copying ramen_kitchen/__init__.py -> /home/you/ros2_term/build/ramen_kitchen/build/lib/ramen_kitchen\n'}
+[13.513710] (ramen_serving) StdoutLine: {'line': b'copying resource/ramen_serving -> /home/you/ros2_term/install/ramen_serving/share/ament_index/resource_index/packages\n'}
+[13.513794] (ramen_serving) StdoutLine: {'line': b'copying package.xml -> /home/you/ros2_term/install/ramen_serving/share/ramen_serving\n'}
+[13.513885] (ramen_kitchen) StdoutLine: {'line': b'copying ramen_kitchen/kitchen_node.py -> /home/you/ros2_term/build/ramen_kitchen/build/lib/ramen_kitchen\n'}
+[13.513969] (ramen_serving) StdoutLine: {'line': b'running install_egg_info\n'}
+[13.522168] (ramen_kitchen) StdoutLine: {'line': b'running install\n'}
+[13.523027] (ramen_kitchen) StdoutLine: {'line': b'running install_lib\n'}
+[13.523464] (ramen_kitchen) StdoutLine: {'line': b'creating /home/you/ros2_term/install/ramen_kitchen/lib/python3.10/site-packages/ramen_kitchen\n'}
+[13.523562] (ramen_serving) StdoutLine: {'line': b'Copying ../build/ramen_serving/ramen_serving.egg-info to /home/you/ros2_term/install/ramen_serving/lib/python3.10/site-packages/ramen_serving-0.0.0-py3.10.egg-info\n'}
+[13.523679] (ramen_serving) StdoutLine: {'line': b'running install_scripts\n'}
+[13.523762] (ramen_kitchen) StdoutLine: {'line': b'copying /home/you/ros2_term/build/ramen_kitchen/build/lib/ramen_kitchen/__init__.py -> /home/you/ros2_term/install/ramen_kitchen/lib/python3.10/site-packages/ramen_kitchen\n'}
+[13.523847] (ramen_kitchen) StdoutLine: {'line': b'copying /home/you/ros2_term/build/ramen_kitchen/build/lib/ramen_kitchen/kitchen_node.py -> /home/you/ros2_term/install/ramen_kitchen/lib/python3.10/site-packages/ramen_kitchen\n'}
+[13.523928] (ramen_kitchen) StdoutLine: {'line': b'byte-compiling /home/you/ros2_term/install/ramen_kitchen/lib/python3.10/site-packages/ramen_kitchen/__init__.py to __init__.cpython-310.pyc\n'}
+[13.524011] (ramen_kitchen) StdoutLine: {'line': b'byte-compiling /home/you/ros2_term/install/ramen_kitchen/lib/python3.10/site-packages/ramen_kitchen/kitchen_node.py to kitchen_node.cpython-310.pyc\n'}
+[13.524107] (ramen_kitchen) StdoutLine: {'line': b'running install_data\n'}
+[13.524191] (ramen_kitchen) StdoutLine: {'line': b'creating /home/you/ros2_term/install/ramen_kitchen/share/ament_index\n'}
+[13.524270] (ramen_kitchen) StdoutLine: {'line': b'creating /home/you/ros2_term/install/ramen_kitchen/share/ament_index/resource_index\n'}
+[13.524354] (ramen_kitchen) StdoutLine: {'line': b'creating /home/you/ros2_term/install/ramen_kitchen/share/ament_index/resource_index/packages\n'}
+[13.524434] (ramen_kitchen) StdoutLine: {'line': b'copying resource/ramen_kitchen -> /home/you/ros2_term/install/ramen_kitchen/share/ament_index/resource_index/packages\n'}
+[13.524514] (ramen_kitchen) StdoutLine: {'line': b'copying package.xml -> /home/you/ros2_term/install/ramen_kitchen/share/ramen_kitchen\n'}
+[13.531144] (ramen_kitchen) StdoutLine: {'line': b'running install_egg_info\n'}
+[13.531323] (ramen_kitchen) StdoutLine: {'line': b'Copying ../build/ramen_kitchen/ramen_kitchen.egg-info to /home/you/ros2_term/install/ramen_kitchen/lib/python3.10/site-packages/ramen_kitchen-0.0.0-py3.10.egg-info\n'}
+[13.534123] (ramen_kitchen) StdoutLine: {'line': b'running install_scripts\n'}
+[13.551757] (ramen_serving) StdoutLine: {'line': b'Installing robot_node script to /home/you/ros2_term/install/ramen_serving/lib/ramen_serving\n'}
+[13.553099] (ramen_serving) StdoutLine: {'line': b"writing list of installed files to '/home/you/ros2_term/build/ramen_serving/install.log'\n"}
+[13.571207] (-) TimerEvent: {}
+[13.580685] (ramen_kitchen) StdoutLine: {'line': b'Installing kitchen_node script to /home/you/ros2_term/install/ramen_kitchen/lib/ramen_kitchen\n'}
+[13.580917] (ramen_kitchen) StdoutLine: {'line': b"writing list of installed files to '/home/you/ros2_term/build/ramen_kitchen/install.log'\n"}
+[13.613928] (ramen_serving) CommandEnded: {'returncode': 0}
+[13.621394] (ramen_serving) JobEnded: {'identifier': 'ramen_serving', 'rc': 0}
+[13.630884] (ramen_kitchen) CommandEnded: {'returncode': 0}
+[13.635824] (ramen_kitchen) JobEnded: {'identifier': 'ramen_kitchen', 'rc': 0}
+[13.636617] (-) EventReactorShutdown: {}

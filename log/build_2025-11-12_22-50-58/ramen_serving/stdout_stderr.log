@@ -1,0 +1,35 @@
+running egg_info
+creating ../build/ramen_serving/ramen_serving.egg-info
+writing ../build/ramen_serving/ramen_serving.egg-info/PKG-INFO
+writing dependency_links to ../build/ramen_serving/ramen_serving.egg-info/dependency_links.txt
+writing entry points to ../build/ramen_serving/ramen_serving.egg-info/entry_points.txt
+writing requirements to ../build/ramen_serving/ramen_serving.egg-info/requires.txt
+writing top-level names to ../build/ramen_serving/ramen_serving.egg-info/top_level.txt
+writing manifest file '../build/ramen_serving/ramen_serving.egg-info/SOURCES.txt'
+reading manifest file '../build/ramen_serving/ramen_serving.egg-info/SOURCES.txt'
+writing manifest file '../build/ramen_serving/ramen_serving.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/you/ros2_term/build/ramen_serving/build
+creating /home/you/ros2_term/build/ramen_serving/build/lib
+creating /home/you/ros2_term/build/ramen_serving/build/lib/ramen_serving
+copying ramen_serving/__init__.py -> /home/you/ros2_term/build/ramen_serving/build/lib/ramen_serving
+copying ramen_serving/robot_node.py -> /home/you/ros2_term/build/ramen_serving/build/lib/ramen_serving
+running install
+running install_lib
+creating /home/you/ros2_term/install/ramen_serving/lib/python3.10/site-packages/ramen_serving
+copying /home/you/ros2_term/build/ramen_serving/build/lib/ramen_serving/__init__.py -> /home/you/ros2_term/install/ramen_serving/lib/python3.10/site-packages/ramen_serving
+copying /home/you/ros2_term/build/ramen_serving/build/lib/ramen_serving/robot_node.py -> /home/you/ros2_term/install/ramen_serving/lib/python3.10/site-packages/ramen_serving
+byte-compiling /home/you/ros2_term/install/ramen_serving/lib/python3.10/site-packages/ramen_serving/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/you/ros2_term/install/ramen_serving/lib/python3.10/site-packages/ramen_serving/robot_node.py to robot_node.cpython-310.pyc
+running install_data
+creating /home/you/ros2_term/install/ramen_serving/share/ament_index
+creating /home/you/ros2_term/install/ramen_serving/share/ament_index/resource_index
+creating /home/you/ros2_term/install/ramen_serving/share/ament_index/resource_index/packages
+copying resource/ramen_serving -> /home/you/ros2_term/install/ramen_serving/share/ament_index/resource_index/packages
+copying package.xml -> /home/you/ros2_term/install/ramen_serving/share/ramen_serving
+running install_egg_info
+Copying ../build/ramen_serving/ramen_serving.egg-info to /home/you/ros2_term/install/ramen_serving/lib/python3.10/site-packages/ramen_serving-0.0.0-py3.10.egg-info
+running install_scripts
+Installing robot_node script to /home/you/ros2_term/install/ramen_serving/lib/ramen_serving
+writing list of installed files to '/home/you/ros2_term/build/ramen_serving/install.log'

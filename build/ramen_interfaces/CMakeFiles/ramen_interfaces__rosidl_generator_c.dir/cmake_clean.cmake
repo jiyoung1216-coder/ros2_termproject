@@ -1,0 +1,37 @@
+file(REMOVE_RECURSE
+  "CMakeFiles/ramen_interfaces__rosidl_generator_c.dir/rosidl_generator_c/ramen_interfaces/action/detail/request_remake__functions.c.o"
+  "CMakeFiles/ramen_interfaces__rosidl_generator_c.dir/rosidl_generator_c/ramen_interfaces/action/detail/request_remake__functions.c.o.d"
+  "CMakeFiles/ramen_interfaces__rosidl_generator_c.dir/rosidl_generator_c/ramen_interfaces/action/detail/serve_ramen__functions.c.o"
+  "CMakeFiles/ramen_interfaces__rosidl_generator_c.dir/rosidl_generator_c/ramen_interfaces/action/detail/serve_ramen__functions.c.o.d"
+  "CMakeFiles/ramen_interfaces__rosidl_generator_c.dir/rosidl_generator_c/ramen_interfaces/msg/detail/cooked_ramen__functions.c.o"
+  "CMakeFiles/ramen_interfaces__rosidl_generator_c.dir/rosidl_generator_c/ramen_interfaces/msg/detail/cooked_ramen__functions.c.o.d"
+  "CMakeFiles/ramen_interfaces__rosidl_generator_c.dir/rosidl_generator_c/ramen_interfaces/msg/detail/ramen_order__functions.c.o"
+  "CMakeFiles/ramen_interfaces__rosidl_generator_c.dir/rosidl_generator_c/ramen_interfaces/msg/detail/ramen_order__functions.c.o.d"
+  "libramen_interfaces__rosidl_generator_c.pdb"
+  "libramen_interfaces__rosidl_generator_c.so"
+  "rosidl_generator_c/ramen_interfaces/action/detail/request_remake__functions.c"
+  "rosidl_generator_c/ramen_interfaces/action/detail/request_remake__functions.h"
+  "rosidl_generator_c/ramen_interfaces/action/detail/request_remake__struct.h"
+  "rosidl_generator_c/ramen_interfaces/action/detail/request_remake__type_support.h"
+  "rosidl_generator_c/ramen_interfaces/action/detail/serve_ramen__functions.c"
+  "rosidl_generator_c/ramen_interfaces/action/detail/serve_ramen__functions.h"
+  "rosidl_generator_c/ramen_interfaces/action/detail/serve_ramen__struct.h"
+  "rosidl_generator_c/ramen_interfaces/action/detail/serve_ramen__type_support.h"
+  "rosidl_generator_c/ramen_interfaces/action/request_remake.h"
+  "rosidl_generator_c/ramen_interfaces/action/serve_ramen.h"
+  "rosidl_generator_c/ramen_interfaces/msg/cooked_ramen.h"
+  "rosidl_generator_c/ramen_interfaces/msg/detail/cooked_ramen__functions.c"
+  "rosidl_generator_c/ramen_interfaces/msg/detail/cooked_ramen__functions.h"
+  "rosidl_generator_c/ramen_interfaces/msg/detail/cooked_ramen__struct.h"
+  "rosidl_generator_c/ramen_interfaces/msg/detail/cooked_ramen__type_support.h"
+  "rosidl_generator_c/ramen_interfaces/msg/detail/ramen_order__functions.c"
+  "rosidl_generator_c/ramen_interfaces/msg/detail/ramen_order__functions.h"
+  "rosidl_generator_c/ramen_interfaces/msg/detail/ramen_order__struct.h"
+  "rosidl_generator_c/ramen_interfaces/msg/detail/ramen_order__type_support.h"
+  "rosidl_generator_c/ramen_interfaces/msg/ramen_order.h"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang C)
+  include(CMakeFiles/ramen_interfaces__rosidl_generator_c.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

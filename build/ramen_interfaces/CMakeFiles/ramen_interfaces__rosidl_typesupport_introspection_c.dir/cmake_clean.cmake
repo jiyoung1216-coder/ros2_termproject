@@ -1,0 +1,25 @@
+file(REMOVE_RECURSE
+  "CMakeFiles/ramen_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ramen_interfaces/action/detail/request_remake__type_support.c.o"
+  "CMakeFiles/ramen_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ramen_interfaces/action/detail/request_remake__type_support.c.o.d"
+  "CMakeFiles/ramen_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ramen_interfaces/action/detail/serve_ramen__type_support.c.o"
+  "CMakeFiles/ramen_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ramen_interfaces/action/detail/serve_ramen__type_support.c.o.d"
+  "CMakeFiles/ramen_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ramen_interfaces/msg/detail/cooked_ramen__type_support.c.o"
+  "CMakeFiles/ramen_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ramen_interfaces/msg/detail/cooked_ramen__type_support.c.o.d"
+  "CMakeFiles/ramen_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ramen_interfaces/msg/detail/ramen_order__type_support.c.o"
+  "CMakeFiles/ramen_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ramen_interfaces/msg/detail/ramen_order__type_support.c.o.d"
+  "libramen_interfaces__rosidl_typesupport_introspection_c.pdb"
+  "libramen_interfaces__rosidl_typesupport_introspection_c.so"
+  "rosidl_typesupport_introspection_c/ramen_interfaces/action/detail/request_remake__rosidl_typesupport_introspection_c.h"
+  "rosidl_typesupport_introspection_c/ramen_interfaces/action/detail/request_remake__type_support.c"
+  "rosidl_typesupport_introspection_c/ramen_interfaces/action/detail/serve_ramen__rosidl_typesupport_introspection_c.h"
+  "rosidl_typesupport_introspection_c/ramen_interfaces/action/detail/serve_ramen__type_support.c"
+  "rosidl_typesupport_introspection_c/ramen_interfaces/msg/detail/cooked_ramen__rosidl_typesupport_introspection_c.h"
+  "rosidl_typesupport_introspection_c/ramen_interfaces/msg/detail/cooked_ramen__type_support.c"
+  "rosidl_typesupport_introspection_c/ramen_interfaces/msg/detail/ramen_order__rosidl_typesupport_introspection_c.h"
+  "rosidl_typesupport_introspection_c/ramen_interfaces/msg/detail/ramen_order__type_support.c"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang C)
+  include(CMakeFiles/ramen_interfaces__rosidl_typesupport_introspection_c.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

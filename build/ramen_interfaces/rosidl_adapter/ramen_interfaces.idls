@@ -1,0 +1,4 @@
+/home/you/ros2_term/build/ramen_interfaces/rosidl_adapter/ramen_interfaces:msg/RamenOrder.idl
+/home/you/ros2_term/build/ramen_interfaces/rosidl_adapter/ramen_interfaces:msg/CookedRamen.idl
+/home/you/ros2_term/build/ramen_interfaces/rosidl_adapter/ramen_interfaces:action/ServeRamen.idl
+/home/you/ros2_term/build/ramen_interfaces/rosidl_adapter/ramen_interfaces:action/RequestRemake.idl

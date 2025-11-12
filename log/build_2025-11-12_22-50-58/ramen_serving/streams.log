@@ -1,0 +1,37 @@
+[1.754s] Invoking command in '/home/you/ros2_term/ramen_serving': AMENT_PREFIX_PATH=/home/you/ros2_term/install/ramen_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/you/ros2_term/install/ramen_interfaces LD_LIBRARY_PATH=/home/you/ros2_term/install/ramen_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/you/ros2_term/build/ramen_serving/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/you/ros2_term/install/ramen_serving/lib/python3.10/site-packages:/home/you/ros2_term/install/ramen_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/ramen_serving build --build-base /home/you/ros2_term/build/ramen_serving/build install --record /home/you/ros2_term/build/ramen_serving/install.log --single-version-externally-managed install_data
+[2.253s] running egg_info
+[2.254s] creating ../build/ramen_serving/ramen_serving.egg-info
+[2.255s] writing ../build/ramen_serving/ramen_serving.egg-info/PKG-INFO
+[2.257s] writing dependency_links to ../build/ramen_serving/ramen_serving.egg-info/dependency_links.txt
+[2.257s] writing entry points to ../build/ramen_serving/ramen_serving.egg-info/entry_points.txt
+[2.257s] writing requirements to ../build/ramen_serving/ramen_serving.egg-info/requires.txt
+[2.257s] writing top-level names to ../build/ramen_serving/ramen_serving.egg-info/top_level.txt
+[2.258s] writing manifest file '../build/ramen_serving/ramen_serving.egg-info/SOURCES.txt'
+[2.259s] reading manifest file '../build/ramen_serving/ramen_serving.egg-info/SOURCES.txt'
+[2.260s] writing manifest file '../build/ramen_serving/ramen_serving.egg-info/SOURCES.txt'
+[2.260s] running build
+[2.261s] running build_py
+[2.261s] creating /home/you/ros2_term/build/ramen_serving/build
+[2.261s] creating /home/you/ros2_term/build/ramen_serving/build/lib
+[2.261s] creating /home/you/ros2_term/build/ramen_serving/build/lib/ramen_serving
+[2.261s] copying ramen_serving/__init__.py -> /home/you/ros2_term/build/ramen_serving/build/lib/ramen_serving
+[2.263s] copying ramen_serving/robot_node.py -> /home/you/ros2_term/build/ramen_serving/build/lib/ramen_serving
+[2.271s] running install
+[2.271s] running install_lib
+[2.276s] creating /home/you/ros2_term/install/ramen_serving/lib/python3.10/site-packages/ramen_serving
+[2.276s] copying /home/you/ros2_term/build/ramen_serving/build/lib/ramen_serving/__init__.py -> /home/you/ros2_term/install/ramen_serving/lib/python3.10/site-packages/ramen_serving
+[2.276s] copying /home/you/ros2_term/build/ramen_serving/build/lib/ramen_serving/robot_node.py -> /home/you/ros2_term/install/ramen_serving/lib/python3.10/site-packages/ramen_serving
+[2.278s] byte-compiling /home/you/ros2_term/install/ramen_serving/lib/python3.10/site-packages/ramen_serving/__init__.py to __init__.cpython-310.pyc
+[2.279s] byte-compiling /home/you/ros2_term/install/ramen_serving/lib/python3.10/site-packages/ramen_serving/robot_node.py to robot_node.cpython-310.pyc
+[2.280s] running install_data
+[2.281s] creating /home/you/ros2_term/install/ramen_serving/share/ament_index
+[2.281s] creating /home/you/ros2_term/install/ramen_serving/share/ament_index/resource_index
+[2.281s] creating /home/you/ros2_term/install/ramen_serving/share/ament_index/resource_index/packages
+[2.281s] copying resource/ramen_serving -> /home/you/ros2_term/install/ramen_serving/share/ament_index/resource_index/packages
+[2.281s] copying package.xml -> /home/you/ros2_term/install/ramen_serving/share/ramen_serving
+[2.281s] running install_egg_info
+[2.291s] Copying ../build/ramen_serving/ramen_serving.egg-info to /home/you/ros2_term/install/ramen_serving/lib/python3.10/site-packages/ramen_serving-0.0.0-py3.10.egg-info
+[2.291s] running install_scripts
+[2.319s] Installing robot_node script to /home/you/ros2_term/install/ramen_serving/lib/ramen_serving
+[2.320s] writing list of installed files to '/home/you/ros2_term/build/ramen_serving/install.log'
+[2.381s] Invoked command in '/home/you/ros2_term/ramen_serving' returned '0': AMENT_PREFIX_PATH=/home/you/ros2_term/install/ramen_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/you/ros2_term/install/ramen_interfaces LD_LIBRARY_PATH=/home/you/ros2_term/install/ramen_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/you/ros2_term/build/ramen_serving/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/you/ros2_term/install/ramen_serving/lib/python3.10/site-packages:/home/you/ros2_term/install/ramen_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/ramen_serving build --build-base /home/you/ros2_term/build/ramen_serving/build install --record /home/you/ros2_term/build/ramen_serving/install.log --single-version-externally-managed install_data

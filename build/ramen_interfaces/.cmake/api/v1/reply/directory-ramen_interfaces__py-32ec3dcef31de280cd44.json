@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "ramen_interfaces__py",
+		"source" : "/home/you/ros2_term/build/ramen_interfaces/ramen_interfaces__py"
+	}
+}

@@ -1,0 +1,3 @@
+[console_scripts]
+robot_node = ramen_serving.robot_node:main
+
