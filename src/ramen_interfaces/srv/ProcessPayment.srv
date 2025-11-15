@@ -1,0 +1,10 @@
+# Request: 주문 정보 + 결제 정보
+ramen_interfaces/RamenOrder order    # 주문 내역
+string payment_method                # "card" or "cash"
+int32 card_balance                   # 카드 잔액 (카드 결제 시)
+---
+# Response: 결제 결과
+bool success                         # 결제 성공 여부
+int32 total_price                    # 총 결제 금액
+int32 remaining_balance              # 잔여 잔액
+string message                       # 결과 메시지 ("결제 완료" / "잔액 부족")

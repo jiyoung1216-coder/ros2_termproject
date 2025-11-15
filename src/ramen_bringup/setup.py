@@ -1,6 +1,8 @@
 from setuptools import find_packages, setup
+import os
+from glob import glob
 
-package_name = 'ramen_table'
+package_name = 'ramen_bringup'
 
 setup(
     name=package_name,
@@ -10,20 +12,19 @@ setup(
         ('share/ament_index/resource_index/packages',
             ['resource/' + package_name]),
         ('share/' + package_name, ['package.xml']),
+        # Launch 파일 설치
+        (os.path.join('share', package_name, 'launch'),
+            glob(os.path.join('launch', '*.launch.py'))),
     ],
     install_requires=['setuptools'],
     zip_safe=True,
     maintainer='user',
     maintainer_email='user@todo.todo',
-    description='Table nodes for ordering and feedback',
+    description='Launch files for ramen serving robot system',
     license='Apache-2.0',
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
-            'order_node = ramen_table.order_node:main',
-            'order1_node = ramen_table.order_node1:main',
-            'customer_node = ramen_table.customer_node:main',
-            'calculator_node = ramen_table.calculator_node:main',  # 새로 추가
         ],
     },
 )

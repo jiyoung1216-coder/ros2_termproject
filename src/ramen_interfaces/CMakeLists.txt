@@ -20,10 +20,16 @@ set(action_files
   "action/ServeRamen.action"
   "action/RequestRemake.action"
 )
+
+set(srv_files
+  "srv/ProcessPayment.srv"
+)
+
 # generate interfaces
 rosidl_generate_interfaces(${PROJECT_NAME}
   ${msg_files}
   ${action_files}
+  ${srv_files}
   DEPENDENCIES builtin_interfaces
 )
 

@@ -1,19 +1,20 @@
 <?xml version="1.0"?>
 <?xml-model href="http://download.ros.org/schema/package_format3.xsd" schematypens="http://www.w3.org/2001/XMLSchema"?>
 <package format="3">
-  <name>ramen_table</name>
+  <name>ramen_bringup</name>
   <version>0.0.0</version>
-  <description>Table nodes for ordering and feedback</description>
+  <description>Launch files for ramen serving robot system</description>
   <maintainer email="user@todo.todo">user</maintainer>
   <license>Apache-2.0</license>
 
-  <depend>rclpy</depend>
-  <depend>ramen_interfaces</depend>
+  <buildtool_depend>ament_cmake</buildtool_depend>
 
-  <test_depend>ament_copyright</test_depend>
-  <test_depend>ament_flake8</test_depend>
-  <test_depend>ament_pep257</test_depend>
-  <test_depend>python3-pytest</test_depend>
+  <!-- 의존성 추가 -->
+  <exec_depend>ramen_table</exec_depend>
+  <exec_depend>ramen_kitchen</exec_depend>
+  <exec_depend>ramen_serving</exec_depend>
+  <exec_depend>ramen_interfaces</exec_depend>
+
   <test_depend>ament_lint_auto</test_depend>
   <test_depend>ament_lint_common</test_depend>
 
