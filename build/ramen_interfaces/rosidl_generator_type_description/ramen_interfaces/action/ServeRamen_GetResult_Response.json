@@ -1,0 +1,56 @@
+{
+  "type_description_msg": {
+    "type_description": {
+      "type_name": "ramen_interfaces/action/ServeRamen_GetResult_Response",
+      "fields": [
+        {
+          "name": "status",
+          "type": {
+            "type_id": 2,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        },
+        {
+          "name": "result",
+          "type": {
+            "type_id": 1,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": "ramen_interfaces/action/ServeRamen_Result"
+          },
+          "default_value": ""
+        }
+      ]
+    },
+    "referenced_type_descriptions": [
+      {
+        "type_name": "ramen_interfaces/action/ServeRamen_Result",
+        "fields": [
+          {
+            "name": "delivery_success",
+            "type": {
+              "type_id": 15,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": ""
+            },
+            "default_value": ""
+          }
+        ]
+      }
+    ]
+  },
+  "type_hashes": [
+    {
+      "type_name": "ramen_interfaces/action/ServeRamen_GetResult_Response",
+      "hash_string": "RIHS01_b7c5eebf8b32a4333b68eebc55c79abcfe49c846eb455c8d044709f7198c339e"
+    },
+    {
+      "type_name": "ramen_interfaces/action/ServeRamen_Result",
+      "hash_string": "RIHS01_ed8937109d4ca0cdf093bc78de6d95794413aef62c2491c232a80e308f802a33"
+    }
+  ]
+}

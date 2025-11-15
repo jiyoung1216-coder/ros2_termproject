@@ -1,0 +1,5 @@
+/home/shiha/ros2_termproject/build/ramen_interfaces/rosidl_adapter/ramen_interfaces:msg/RamenOrder.idl
+/home/shiha/ros2_termproject/build/ramen_interfaces/rosidl_adapter/ramen_interfaces:msg/CookedRamen.idl
+/home/shiha/ros2_termproject/build/ramen_interfaces/rosidl_adapter/ramen_interfaces:action/ServeRamen.idl
+/home/shiha/ros2_termproject/build/ramen_interfaces/rosidl_adapter/ramen_interfaces:action/RequestRemake.idl
+/home/shiha/ros2_termproject/build/ramen_interfaces/rosidl_adapter/ramen_interfaces:srv/PayOrder.idl

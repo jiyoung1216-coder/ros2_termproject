@@ -1,0 +1,19 @@
+running egg_info
+writing ../../build/ramen_serving/ramen_serving.egg-info/PKG-INFO
+writing dependency_links to ../../build/ramen_serving/ramen_serving.egg-info/dependency_links.txt
+writing entry points to ../../build/ramen_serving/ramen_serving.egg-info/entry_points.txt
+writing requirements to ../../build/ramen_serving/ramen_serving.egg-info/requires.txt
+writing top-level names to ../../build/ramen_serving/ramen_serving.egg-info/top_level.txt
+reading manifest file '../../build/ramen_serving/ramen_serving.egg-info/SOURCES.txt'
+writing manifest file '../../build/ramen_serving/ramen_serving.egg-info/SOURCES.txt'
+running build
+running build_py
+running install
+running install_lib
+running install_data
+running install_egg_info
+removing '/home/shiha/ros2_termproject/install/ramen_serving/lib/python3.12/site-packages/ramen_serving-0.0.0-py3.12.egg-info' (and everything under it)
+Copying ../../build/ramen_serving/ramen_serving.egg-info to /home/shiha/ros2_termproject/install/ramen_serving/lib/python3.12/site-packages/ramen_serving-0.0.0-py3.12.egg-info
+running install_scripts
+Installing robot_node script to /home/shiha/ros2_termproject/install/ramen_serving/lib/ramen_serving
+writing list of installed files to '/home/shiha/ros2_termproject/build/ramen_serving/install.log'

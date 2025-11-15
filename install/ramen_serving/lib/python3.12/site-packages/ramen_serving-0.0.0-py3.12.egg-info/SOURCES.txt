@@ -1,0 +1,16 @@
+package.xml
+setup.cfg
+setup.py
+../../build/ramen_serving/ramen_serving.egg-info/PKG-INFO
+../../build/ramen_serving/ramen_serving.egg-info/SOURCES.txt
+../../build/ramen_serving/ramen_serving.egg-info/dependency_links.txt
+../../build/ramen_serving/ramen_serving.egg-info/entry_points.txt
+../../build/ramen_serving/ramen_serving.egg-info/requires.txt
+../../build/ramen_serving/ramen_serving.egg-info/top_level.txt
+../../build/ramen_serving/ramen_serving.egg-info/zip-safe
+ramen_serving/__init__.py
+ramen_serving/robot_node.py
+resource/ramen_serving
+test/test_copyright.py
+test/test_flake8.py
+test/test_pep257.py

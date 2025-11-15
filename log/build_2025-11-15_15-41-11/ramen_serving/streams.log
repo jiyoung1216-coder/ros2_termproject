@@ -1,0 +1,21 @@
+[0.929s] Invoking command in '/home/shiha/ros2_termproject/src/ramen_serving': AMENT_PREFIX_PATH=/home/shiha/ros2_termproject/install/ramen_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/shiha/ros2_termproject/install/ramen_interfaces:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/shiha/ros2_termproject/install/ramen_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/shiha/ros2_termproject/build/ramen_serving/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/shiha/ros2_termproject/install/ramen_serving/lib/python3.12/site-packages:/home/shiha/ros2_termproject/install/ramen_interfaces/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/ramen_serving build --build-base /home/shiha/ros2_termproject/build/ramen_serving/build install --record /home/shiha/ros2_termproject/build/ramen_serving/install.log --single-version-externally-managed install_data
+[1.108s] running egg_info
+[1.122s] writing ../../build/ramen_serving/ramen_serving.egg-info/PKG-INFO
+[1.122s] writing dependency_links to ../../build/ramen_serving/ramen_serving.egg-info/dependency_links.txt
+[1.122s] writing entry points to ../../build/ramen_serving/ramen_serving.egg-info/entry_points.txt
+[1.123s] writing requirements to ../../build/ramen_serving/ramen_serving.egg-info/requires.txt
+[1.123s] writing top-level names to ../../build/ramen_serving/ramen_serving.egg-info/top_level.txt
+[1.149s] reading manifest file '../../build/ramen_serving/ramen_serving.egg-info/SOURCES.txt'
+[1.150s] writing manifest file '../../build/ramen_serving/ramen_serving.egg-info/SOURCES.txt'
+[1.150s] running build
+[1.150s] running build_py
+[1.150s] running install
+[1.154s] running install_lib
+[1.168s] running install_data
+[1.168s] running install_egg_info
+[1.182s] removing '/home/shiha/ros2_termproject/install/ramen_serving/lib/python3.12/site-packages/ramen_serving-0.0.0-py3.12.egg-info' (and everything under it)
+[1.182s] Copying ../../build/ramen_serving/ramen_serving.egg-info to /home/shiha/ros2_termproject/install/ramen_serving/lib/python3.12/site-packages/ramen_serving-0.0.0-py3.12.egg-info
+[1.183s] running install_scripts
+[1.269s] Installing robot_node script to /home/shiha/ros2_termproject/install/ramen_serving/lib/ramen_serving
+[1.269s] writing list of installed files to '/home/shiha/ros2_termproject/build/ramen_serving/install.log'
+[1.298s] Invoked command in '/home/shiha/ros2_termproject/src/ramen_serving' returned '0': AMENT_PREFIX_PATH=/home/shiha/ros2_termproject/install/ramen_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/shiha/ros2_termproject/install/ramen_interfaces:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/shiha/ros2_termproject/install/ramen_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/shiha/ros2_termproject/build/ramen_serving/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/shiha/ros2_termproject/install/ramen_serving/lib/python3.12/site-packages:/home/shiha/ros2_termproject/install/ramen_interfaces/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/ramen_serving build --build-base /home/shiha/ros2_termproject/build/ramen_serving/build install --record /home/shiha/ros2_termproject/build/ramen_serving/install.log --single-version-externally-managed install_data

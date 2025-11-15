@@ -1,0 +1,145 @@
+{
+  "type_description_msg": {
+    "type_description": {
+      "type_name": "ramen_interfaces/action/RequestRemake_Goal",
+      "fields": [
+        {
+          "name": "bad_food",
+          "type": {
+            "type_id": 1,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": "ramen_interfaces/msg/CookedRamen"
+          },
+          "default_value": ""
+        }
+      ]
+    },
+    "referenced_type_descriptions": [
+      {
+        "type_name": "ramen_interfaces/msg/CookedRamen",
+        "fields": [
+          {
+            "name": "order",
+            "type": {
+              "type_id": 1,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": "ramen_interfaces/msg/RamenOrder"
+            },
+            "default_value": ""
+          },
+          {
+            "name": "cook_status",
+            "type": {
+              "type_id": 17,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": ""
+            },
+            "default_value": ""
+          }
+        ]
+      },
+      {
+        "type_name": "ramen_interfaces/msg/RamenOrder",
+        "fields": [
+          {
+            "name": "table_number",
+            "type": {
+              "type_id": 6,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": ""
+            },
+            "default_value": ""
+          },
+          {
+            "name": "ramen_type",
+            "type": {
+              "type_id": 17,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": ""
+            },
+            "default_value": ""
+          },
+          {
+            "name": "toppings",
+            "type": {
+              "type_id": 161,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": ""
+            },
+            "default_value": ""
+          },
+          {
+            "name": "sides",
+            "type": {
+              "type_id": 161,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": ""
+            },
+            "default_value": ""
+          },
+          {
+            "name": "total_price",
+            "type": {
+              "type_id": 6,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": ""
+            },
+            "default_value": ""
+          },
+          {
+            "name": "payment_method",
+            "type": {
+              "type_id": 17,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": ""
+            },
+            "default_value": ""
+          },
+          {
+            "name": "pay_now",
+            "type": {
+              "type_id": 15,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": ""
+            },
+            "default_value": ""
+          },
+          {
+            "name": "currency",
+            "type": {
+              "type_id": 17,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": ""
+            },
+            "default_value": ""
+          }
+        ]
+      }
+    ]
+  },
+  "type_hashes": [
+    {
+      "type_name": "ramen_interfaces/action/RequestRemake_Goal",
+      "hash_string": "RIHS01_a3fef9e4c71222ca85a061618022569cbf27c01f1e7b62330c66397289a7951d"
+    },
+    {
+      "type_name": "ramen_interfaces/msg/CookedRamen",
+      "hash_string": "RIHS01_ac78d2e2a9a543b9c73a42c102d4ce27b80afb4514618d4717a920ee7d6a2363"
+    },
+    {
+      "type_name": "ramen_interfaces/msg/RamenOrder",
+      "hash_string": "RIHS01_019660aa2705e507e7261d2f1b10edb7b5607557534eb2508a5a3f4d4300b67b"
+    }
+  ]
+}

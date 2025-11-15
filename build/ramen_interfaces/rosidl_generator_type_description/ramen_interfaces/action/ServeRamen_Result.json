@@ -1,0 +1,26 @@
+{
+  "type_description_msg": {
+    "type_description": {
+      "type_name": "ramen_interfaces/action/ServeRamen_Result",
+      "fields": [
+        {
+          "name": "delivery_success",
+          "type": {
+            "type_id": 15,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        }
+      ]
+    },
+    "referenced_type_descriptions": []
+  },
+  "type_hashes": [
+    {
+      "type_name": "ramen_interfaces/action/ServeRamen_Result",
+      "hash_string": "RIHS01_ed8937109d4ca0cdf093bc78de6d95794413aef62c2491c232a80e308f802a33"
+    }
+  ]
+}

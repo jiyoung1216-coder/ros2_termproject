@@ -1,0 +1,35 @@
+running egg_info
+creating ../../build/ramen_kitchen/ramen_kitchen.egg-info
+writing ../../build/ramen_kitchen/ramen_kitchen.egg-info/PKG-INFO
+writing dependency_links to ../../build/ramen_kitchen/ramen_kitchen.egg-info/dependency_links.txt
+writing entry points to ../../build/ramen_kitchen/ramen_kitchen.egg-info/entry_points.txt
+writing requirements to ../../build/ramen_kitchen/ramen_kitchen.egg-info/requires.txt
+writing top-level names to ../../build/ramen_kitchen/ramen_kitchen.egg-info/top_level.txt
+writing manifest file '../../build/ramen_kitchen/ramen_kitchen.egg-info/SOURCES.txt'
+reading manifest file '../../build/ramen_kitchen/ramen_kitchen.egg-info/SOURCES.txt'
+writing manifest file '../../build/ramen_kitchen/ramen_kitchen.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/shiha/ros2_termproject/build/ramen_kitchen/build
+creating /home/shiha/ros2_termproject/build/ramen_kitchen/build/lib
+creating /home/shiha/ros2_termproject/build/ramen_kitchen/build/lib/ramen_kitchen
+copying ramen_kitchen/kitchen_node.py -> /home/shiha/ros2_termproject/build/ramen_kitchen/build/lib/ramen_kitchen
+copying ramen_kitchen/__init__.py -> /home/shiha/ros2_termproject/build/ramen_kitchen/build/lib/ramen_kitchen
+running install
+running install_lib
+creating /home/shiha/ros2_termproject/install/ramen_kitchen/lib/python3.12/site-packages/ramen_kitchen
+copying /home/shiha/ros2_termproject/build/ramen_kitchen/build/lib/ramen_kitchen/kitchen_node.py -> /home/shiha/ros2_termproject/install/ramen_kitchen/lib/python3.12/site-packages/ramen_kitchen
+copying /home/shiha/ros2_termproject/build/ramen_kitchen/build/lib/ramen_kitchen/__init__.py -> /home/shiha/ros2_termproject/install/ramen_kitchen/lib/python3.12/site-packages/ramen_kitchen
+byte-compiling /home/shiha/ros2_termproject/install/ramen_kitchen/lib/python3.12/site-packages/ramen_kitchen/kitchen_node.py to kitchen_node.cpython-312.pyc
+byte-compiling /home/shiha/ros2_termproject/install/ramen_kitchen/lib/python3.12/site-packages/ramen_kitchen/__init__.py to __init__.cpython-312.pyc
+running install_data
+creating /home/shiha/ros2_termproject/install/ramen_kitchen/share/ament_index
+creating /home/shiha/ros2_termproject/install/ramen_kitchen/share/ament_index/resource_index
+creating /home/shiha/ros2_termproject/install/ramen_kitchen/share/ament_index/resource_index/packages
+copying resource/ramen_kitchen -> /home/shiha/ros2_termproject/install/ramen_kitchen/share/ament_index/resource_index/packages
+copying package.xml -> /home/shiha/ros2_termproject/install/ramen_kitchen/share/ramen_kitchen
+running install_egg_info
+Copying ../../build/ramen_kitchen/ramen_kitchen.egg-info to /home/shiha/ros2_termproject/install/ramen_kitchen/lib/python3.12/site-packages/ramen_kitchen-0.0.0-py3.12.egg-info
+running install_scripts
+Installing kitchen_node script to /home/shiha/ros2_termproject/install/ramen_kitchen/lib/ramen_kitchen
+writing list of installed files to '/home/shiha/ros2_termproject/build/ramen_kitchen/install.log'

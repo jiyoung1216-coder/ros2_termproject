@@ -1,0 +1,10 @@
+{
+  "package_name": "ramen_interfaces",
+  "non_idl_tuples": [
+    "/home/shiha/ros2_termproject/src/ramen_interfaces:msg/RamenOrder.msg",
+    "/home/shiha/ros2_termproject/src/ramen_interfaces:msg/CookedRamen.msg",
+    "/home/shiha/ros2_termproject/src/ramen_interfaces:action/ServeRamen.action",
+    "/home/shiha/ros2_termproject/src/ramen_interfaces:action/RequestRemake.action",
+    "/home/shiha/ros2_termproject/src/ramen_interfaces:srv/PayOrder.srv"
+  ]
+}

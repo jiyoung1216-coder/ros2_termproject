@@ -1,0 +1,26 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from ramen_interfaces/msg/RamenOrder.msg
+// generated code does not contain a copyright notice
+
+
+module ramen_interfaces {
+  module msg {
+    struct RamenOrder {
+      int32 table_number;
+
+      string ramen_type;
+
+      sequence<string> toppings;
+
+      sequence<string> sides;
+
+      int32 total_price;
+
+      string payment_method;
+
+      boolean pay_now;
+
+      string currency;
+    };
+  };
+};

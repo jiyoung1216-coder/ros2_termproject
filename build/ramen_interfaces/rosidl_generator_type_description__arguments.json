@@ -1,0 +1,17 @@
+{
+  "package_name": "ramen_interfaces",
+  "output_dir": "/home/shiha/ros2_termproject/build/ramen_interfaces/rosidl_generator_type_description/ramen_interfaces",
+  "idl_tuples": [
+    "/home/shiha/ros2_termproject/build/ramen_interfaces/rosidl_adapter/ramen_interfaces:msg/RamenOrder.idl",
+    "/home/shiha/ros2_termproject/build/ramen_interfaces/rosidl_adapter/ramen_interfaces:msg/CookedRamen.idl",
+    "/home/shiha/ros2_termproject/build/ramen_interfaces/rosidl_adapter/ramen_interfaces:action/ServeRamen.idl",
+    "/home/shiha/ros2_termproject/build/ramen_interfaces/rosidl_adapter/ramen_interfaces:action/RequestRemake.idl",
+    "/home/shiha/ros2_termproject/build/ramen_interfaces/rosidl_adapter/ramen_interfaces:srv/PayOrder.idl"
+  ],
+  "include_paths": [
+    "builtin_interfaces:/opt/ros/jazzy/share/builtin_interfaces",
+    "service_msgs:/opt/ros/jazzy/share/service_msgs",
+    "action_msgs:/opt/ros/jazzy/share/action_msgs",
+    "unique_identifier_msgs:/opt/ros/jazzy/share/unique_identifier_msgs"
+  ]
+}

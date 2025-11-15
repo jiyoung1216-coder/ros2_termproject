@@ -1,0 +1,44 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from ramen_interfaces/srv/PayOrder.srv
+// generated code does not contain a copyright notice
+
+
+module ramen_interfaces {
+  module srv {
+    @verbatim (language="comment", text=
+      "Request: 손님이 주문한 메뉴 내역")
+    struct PayOrder_Request {
+      @verbatim (language="comment", text=
+        "테이블 번호")
+      int32 table_number;
+
+      @verbatim (language="comment", text=
+        "라면 종류 (예: \"신라면\")")
+      string ramen_type;
+
+      @verbatim (language="comment", text=
+        "토핑 리스트 (예: [\"치즈\", \"떡\"])")
+      sequence<string> toppings;
+
+      @verbatim (language="comment", text=
+        "사이드 리스트 (예:)")
+      @unit (value="\"김밥\"")
+      sequence<string> sides;
+    };
+    @verbatim (language="comment", text=
+      "Response: 카운터(서버)의 처리 결과")
+    struct PayOrder_Response {
+      @verbatim (language="comment", text=
+        "결제 승인 여부 (True/False)")
+      boolean success;
+
+      @verbatim (language="comment", text=
+        "계산된 총 결제 금액")
+      int32 total_price;
+
+      @verbatim (language="comment", text=
+        "결과 메시지 (예: \"결제 승인 완료\" 또는 \"잔액 부족\")")
+      string message;
+    };
+  };
+};

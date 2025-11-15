@@ -1,0 +1,45 @@
+[1.281s] Invoking command in '/home/shiha/ros2_termproject/src/ramen_table': AMENT_PREFIX_PATH=/home/shiha/ros2_termproject/install/ramen_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/shiha/ros2_termproject/install/ramen_interfaces:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/shiha/ros2_termproject/install/ramen_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/shiha/ros2_termproject/build/ramen_table/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/shiha/ros2_termproject/install/ramen_table/lib/python3.12/site-packages:/home/shiha/ros2_termproject/install/ramen_interfaces/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/ramen_table build --build-base /home/shiha/ros2_termproject/build/ramen_table/build install --record /home/shiha/ros2_termproject/build/ramen_table/install.log --single-version-externally-managed install_data
+[1.534s] running egg_info
+[1.534s] creating ../../build/ramen_table/ramen_table.egg-info
+[1.548s] writing ../../build/ramen_table/ramen_table.egg-info/PKG-INFO
+[1.548s] writing dependency_links to ../../build/ramen_table/ramen_table.egg-info/dependency_links.txt
+[1.548s] writing entry points to ../../build/ramen_table/ramen_table.egg-info/entry_points.txt
+[1.549s] writing requirements to ../../build/ramen_table/ramen_table.egg-info/requires.txt
+[1.549s] writing top-level names to ../../build/ramen_table/ramen_table.egg-info/top_level.txt
+[1.549s] writing manifest file '../../build/ramen_table/ramen_table.egg-info/SOURCES.txt'
+[1.580s] reading manifest file '../../build/ramen_table/ramen_table.egg-info/SOURCES.txt'
+[1.581s] writing manifest file '../../build/ramen_table/ramen_table.egg-info/SOURCES.txt'
+[1.582s] running build
+[1.582s] running build_py
+[1.583s] creating /home/shiha/ros2_termproject/build/ramen_table/build
+[1.583s] creating /home/shiha/ros2_termproject/build/ramen_table/build/lib
+[1.583s] creating /home/shiha/ros2_termproject/build/ramen_table/build/lib/ramen_table
+[1.583s] copying ramen_table/order_node.py -> /home/shiha/ros2_termproject/build/ramen_table/build/lib/ramen_table
+[1.583s] copying ramen_table/order1_node.py -> /home/shiha/ros2_termproject/build/ramen_table/build/lib/ramen_table
+[1.583s] copying ramen_table/customer_node.py -> /home/shiha/ros2_termproject/build/ramen_table/build/lib/ramen_table
+[1.584s] copying ramen_table/__init__.py -> /home/shiha/ros2_termproject/build/ramen_table/build/lib/ramen_table
+[1.584s] running install
+[1.587s] running install_lib
+[1.600s] creating /home/shiha/ros2_termproject/install/ramen_table/lib/python3.12/site-packages/ramen_table
+[1.601s] copying /home/shiha/ros2_termproject/build/ramen_table/build/lib/ramen_table/order_node.py -> /home/shiha/ros2_termproject/install/ramen_table/lib/python3.12/site-packages/ramen_table
+[1.601s] copying /home/shiha/ros2_termproject/build/ramen_table/build/lib/ramen_table/order1_node.py -> /home/shiha/ros2_termproject/install/ramen_table/lib/python3.12/site-packages/ramen_table
+[1.601s] copying /home/shiha/ros2_termproject/build/ramen_table/build/lib/ramen_table/customer_node.py -> /home/shiha/ros2_termproject/install/ramen_table/lib/python3.12/site-packages/ramen_table
+[1.601s] copying /home/shiha/ros2_termproject/build/ramen_table/build/lib/ramen_table/__init__.py -> /home/shiha/ros2_termproject/install/ramen_table/lib/python3.12/site-packages/ramen_table
+[1.602s] byte-compiling /home/shiha/ros2_termproject/install/ramen_table/lib/python3.12/site-packages/ramen_table/order_node.py to order_node.cpython-312.pyc
+[1.603s] byte-compiling /home/shiha/ros2_termproject/install/ramen_table/lib/python3.12/site-packages/ramen_table/order1_node.py to order1_node.cpython-312.pyc
+[1.607s] byte-compiling /home/shiha/ros2_termproject/install/ramen_table/lib/python3.12/site-packages/ramen_table/customer_node.py to customer_node.cpython-312.pyc
+[1.607s] byte-compiling /home/shiha/ros2_termproject/install/ramen_table/lib/python3.12/site-packages/ramen_table/__init__.py to __init__.cpython-312.pyc
+[1.608s] running install_data
+[1.608s] creating /home/shiha/ros2_termproject/install/ramen_table/share/ament_index
+[1.608s] creating /home/shiha/ros2_termproject/install/ramen_table/share/ament_index/resource_index
+[1.609s] creating /home/shiha/ros2_termproject/install/ramen_table/share/ament_index/resource_index/packages
+[1.609s] copying resource/ramen_table -> /home/shiha/ros2_termproject/install/ramen_table/share/ament_index/resource_index/packages
+[1.609s] copying package.xml -> /home/shiha/ros2_termproject/install/ramen_table/share/ramen_table
+[1.609s] running install_egg_info
+[1.630s] Copying ../../build/ramen_table/ramen_table.egg-info to /home/shiha/ros2_termproject/install/ramen_table/lib/python3.12/site-packages/ramen_table-0.0.0-py3.12.egg-info
+[1.632s] running install_scripts
+[1.756s] Installing customer_node script to /home/shiha/ros2_termproject/install/ramen_table/lib/ramen_table
+[1.756s] Installing order1_node script to /home/shiha/ros2_termproject/install/ramen_table/lib/ramen_table
+[1.756s] Installing order_node script to /home/shiha/ros2_termproject/install/ramen_table/lib/ramen_table
+[1.757s] writing list of installed files to '/home/shiha/ros2_termproject/build/ramen_table/install.log'
+[1.809s] Invoked command in '/home/shiha/ros2_termproject/src/ramen_table' returned '0': AMENT_PREFIX_PATH=/home/shiha/ros2_termproject/install/ramen_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/shiha/ros2_termproject/install/ramen_interfaces:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/shiha/ros2_termproject/install/ramen_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/shiha/ros2_termproject/build/ramen_table/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/shiha/ros2_termproject/install/ramen_table/lib/python3.12/site-packages:/home/shiha/ros2_termproject/install/ramen_interfaces/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/ramen_table build --build-base /home/shiha/ros2_termproject/build/ramen_table/build install --record /home/shiha/ros2_termproject/build/ramen_table/install.log --single-version-externally-managed install_data

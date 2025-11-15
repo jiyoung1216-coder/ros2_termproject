@@ -1,0 +1,10 @@
+# Request: 손님이 주문한 메뉴 내역
+int32 table_number    # 테이블 번호
+string ramen_type     # 라면 종류 (예: "신라면")
+string[] toppings     # 토핑 리스트 (예: ["치즈", "떡"])
+string[] sides        # 사이드 리스트 (예: ["김밥"])
+---
+# Response: 카운터(서버)의 처리 결과
+bool success          # 결제 승인 여부 (True/False)
+int32 total_price     # 계산된 총 결제 금액
+string message        # 결과 메시지 (예: "결제 승인 완료" 또는 "잔액 부족")
