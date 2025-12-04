@@ -43,14 +43,14 @@ source install/setup.bash           # 빌드 산출물 오버레이
 ## 3. 전체 로직 한눈에 보기
 
 ```
-┌──────────┐     서비스         ┌────────────┐      토픽           ┌────────────┐
-│order_node│───/order_service──▶│counter_node│───/new_order──────▶│kitchen_node│
+┌──────────┐     서비스           ┌────────────┐      토픽           ┌────────────┐
+│order_node│───/order_service──▶│counter_node │───/new_order──────▶│kitchen_node│
 └──────────┘                     └────────────┘                    └────────────┘
        ▲                                │                                   │
        │                                └───────── 주문 로그                  │
        │                                                   │                ▼
        │                                                   │     토픽   ┌───────────┐
-       │                                                   └──────────▶│robot_node│
+       │                                                   └──────────▶│robot_node │
        │                                                               └───────────┘
        │                                                                       │
        │                                            토픽                        │
@@ -63,11 +63,11 @@ source install/setup.bash           # 빌드 산출물 오버레이
                                                   (완벽 X 시 /request_remake 액션으로 주방 재조리)
 ```
 
-- **주문 UI(`order_node`)**가 카운터 서비스(`/order_service`)를 호출합니다.
-- **카운터(`counter_node`)**는 주문을 로깅하고 메시지(`/new_order`)를 주방으로 퍼블리시합니다.
-- **주방(`kitchen_node`)**은 라면을 조리해 결과(`/food_ready`)를 서빙 로봇에게 전달합니다.
-- **서빙 로봇(`robot_node`)**은 액션(`serve_ramen`)으로 로봇 이동·복귀를 시뮬레이션하고, 테이블에 도착하면 `/delivery_arrived`를 발행합니다.
-- **고객(`customer_node`)**은 배달된 음식 상태를 검사하고, 불량이면 `/request_remake` 액션으로 재조리를 요청한 뒤 다시 로봇에게 전달합니다.
+- 주문 UI(`order_node`)가 카운터 서비스(`/order_service`)를 호출합니다.
+- 카운터(`counter_node`)는 주문을 로깅하고 메시지(`/new_order`)를 주방으로 퍼블리시합니다.
+- 주방(`kitchen_node`)은 라면을 조리해 결과(`/food_ready`)를 서빙 로봇에게 전달합니다.
+- 서빙 로봇(`robot_node`)은 액션(`serve_ramen`)으로 로봇 이동·복귀를 시뮬레이션하고, 테이블에 도착하면 `/delivery_arrived`를 발행합니다.
+- 고객(`customer_node`)은 배달된 음식 상태를 검사하고, 불량이면 `/request_remake` 액션으로 재조리를 요청한 뒤 다시 로봇에게 전달합니다.
 
 ---
 
