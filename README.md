@@ -30,13 +30,13 @@ ROS 2를 처음 접하는 사람도 그대로 따라 하면 실행할 수 있�
 ## 2. 빌드 & 환경 설정
 
 ```bash
-cd /workspace
+cd /ros2_ws
 source /opt/ros/humble/setup.bash   # ROS 2 기본 환경
 colcon build --symlink-install      # 프로젝트 빌드
 source install/setup.bash           # 빌드 산출물 오버레이
 ```
 
-빌드가 끝나면 **새 터미널마다** `/workspace/install/setup.bash`를 다시 source 해주세요. (Tip: `echo "source /workspace/install/setup.bash" >> ~/.bashrc`)
+빌드가 끝나면 **새 터미널마다** `/ros2_ws/install/setup.bash`를 다시 source 해주세요. (Tip: `echo "source /ros2_ws/install/setup.bash" >> ~/.bashrc`)
 
 ---
 
